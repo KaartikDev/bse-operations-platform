@@ -1,0 +1,141 @@
+schema:
+  version: 1
+  database: bse_mentorship
+  tables:
+    students:
+      description: Master student record (one row per student email)
+      columns:
+        id:
+          type: uuid
+          primary_key: true
+        created_at:
+          type: timestamp
+          default: now
+        updated_at:
+          type: timestamp
+          default: now
+        email:
+          type: varchar(320)
+          unique: true
+          nullable: false
+        first_name:
+          type: varchar(100)
+          nullable: true
+        last_name:
+          type: varchar(100)
+          nullable: true
+        academic_year:
+          type: varchar(50)
+          nullable: true
+          comment: "From: What year are you in?"
+        programs_interested:
+          type: text
+          nullable: true
+          comment: "Raw text; can be parsed into a join table later"
+        companies_interested_and_why:
+          type: text
+          nullable: true
+          comment: "Why do you want to be apart of the mentorship program and what companies are you interested?"
+        availability:
+          type: text
+          nullable: true
+          comment: "When are you available to meet with your mentor if matched?"
+        personal_website_track_why:
+          type: text
+          nullable: true
+          comment: "Why are you interested in joining BSE's Personal Website Track?"
+        questions_comments_concerns:
+          type: text
+          nullable: true
+
+    student_applications:
+      description: Raw application submissions (keeps the original form timestamp and fields)
+      columns:
+        id:
+          type: uuid
+          primary_key: true
+        submitted_at:
+          type: timestamp
+          nullable: false
+          comment: "From: Timestamp"
+        student_email:
+          type: varchar(320)
+          nullable: false
+          foreign_key: students.email
+        name_raw:
+          type: varchar(200)
+          nullable: true
+          comment: "From: Name"
+        academic_year_raw:
+          type: varchar(50)
+          nullable: true
+        programs_interested_raw:
+          type: text
+          nullable: true
+        companies_interested_and_why_raw:
+          type: text
+          nullable: true
+        availability_raw:
+          type: text
+          nullable: true
+        personal_website_track_why_raw:
+          type: text
+          nullable: true
+        questions_comments_concerns_raw:
+          type: text
+          nullable: true
+        source_email_address:
+          type: varchar(320)
+          nullable: true
+          comment: "From: Email Address (if separate from Email column)"
+        application_label:
+          type: varchar(100)
+          nullable: true
+          comment: "From: Application"
+      indexes:
+        - columns: [student_email]
+        - columns: [submitted_at]
+
+    student_commitments:
+      description: Commitment and confirmation form responses (one row per student email per submission)
+      columns:
+        id:
+          type: uuid
+          primary_key: true
+        created_at:
+          type: timestamp
+          default: now
+        student_email:
+          type: varchar(320)
+          nullable: false
+          foreign_key: students.email
+        last_name_raw:
+          type: varchar(100)
+          nullable: true
+          comment: "From: Last Name"
+        weekly_meetings_agree:
+          type: boolean
+          nullable: true
+          comment: "I agree to attend weekly 30 minutes mentor sessions for the duration of the program (4 weeks)"
+        respect_mentor_time_ack:
+          type: boolean
+          nullable: true
+          comment: "I understand that our mentors are volunteering their valuable time..."
+        come_prepared_agree:
+          type: boolean
+          nullable: true
+          comment: "I agree to come to each meeting with a plan or set of questions..."
+        mentorship_goals:
+          type: text
+          nullable: true
+          comment: "What would you like to get out of mentorship? (may be shared with mentors)"
+        info_session_ack:
+          type: boolean
+          nullable: true
+          comment: "Info Session attendance strongly recommended"
+        application_label:
+          type: varchar(100)
+          nullable: true
+          comment: "From: Application"
+      indexes:
+        - columns: [student_email]
