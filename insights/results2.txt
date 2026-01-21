@@ -1,0 +1,97 @@
+=== EVALUATING STUDENT RATING SYSTEM ===
+
+Test 1: {"input":{"interests":"AI/ML, DevOps, Systems Engineering, Network Engineering, Biotech, Firmware, Hardware","disinterests":"Crypto","idealMentor":"They would work at any company, whether Big Tech or a startup. They would be knowledgeable in many fields but hopefully at least full-stack. I don't care much about their background, just whether they are able to assist and connect with me."},"expectedPos":["artificial_intelligence_and_machine_learning","devops_and_cloud_infrastructure","systems_programming","computational_biology","embedded_systems_and_iot","computer_hardware_and_architecture"],"expectedNeg":["cryptocurrency_and_blockchain"]}
+  ✅ Valid
+  ✅ Reasonable ratings
+  Testing consistency (3 runs)...
+  Average similarity: 0.9569428977956568
+  Min similarity: 0.9354143466934852
+  ✅ Consistent
+{
+  artificial_intelligence_and_machine_learning: 1,
+  backend_development: 0,
+  computational_biology: 1,
+  computer_hardware_and_architecture: 1,
+  cryptocurrency_and_blockchain: -1,
+  cybersecurity: 0,
+  data_science_and_analytics: 0,
+  databases_and_data_management: 0,
+  devops_and_cloud_infrastructure: 1,
+  education_and_teaching: 0,
+  embedded_systems_and_iot: 1,
+  entrepreneurship_and_startups: 0,
+  frontend_development: 0,
+  full_stack_development: 0,
+  game_development: 0,
+  mobile_development: 0,
+  quantum_computing: 0,
+  research_and_academia: 0,
+  systems_programming: 1,
+  ui_ux_design_and_human_computer_interaction: 0,
+  web_development: 0
+}
+
+Test 2: {"input":{"interests":"Backend and infrastructure engineering, with a focus on scalable systems, APIs, and data pipelines. Interested in developer platforms, reliability, and performance critical services. Enjoy building tools that support large numbers of users and enable other engineers to move faster.","disinterests":"N/A","idealMentor":"I’m looking for mentorship on navigating the path to big tech roles, including technical interview preparation and long term career positioning. I’d also value guidance on planning coursework strategically and weighing the tradeoffs between industry experience and pursuing graduate school."},"expectedPos":["backend_development","databases_and_data_management"],"expectedNeg":[]}
+  ✅ Valid
+  ✅ Reasonable ratings
+  Testing consistency (3 runs)...
+  Average similarity: 0.9491732328406494
+  Min similarity: 0.9245003270420487
+  ✅ Consistent
+{
+  artificial_intelligence_and_machine_learning: 0,
+  backend_development: 1,
+  computational_biology: 0,
+  computer_hardware_and_architecture: 0,
+  cryptocurrency_and_blockchain: 0,
+  cybersecurity: 0,
+  data_science_and_analytics: 0,
+  databases_and_data_management: 1,
+  devops_and_cloud_infrastructure: 1,
+  education_and_teaching: 0,
+  embedded_systems_and_iot: 0,
+  entrepreneurship_and_startups: 0,
+  frontend_development: 0,
+  full_stack_development: 0,
+  game_development: 0,
+  mobile_development: 0,
+  quantum_computing: 0,
+  research_and_academia: 0,
+  systems_programming: 1,
+  ui_ux_design_and_human_computer_interaction: 0,
+  web_development: 0
+}
+
+Test 3: {"input":{"interests":"Mobile/iOS development, game development","disinterests":"Operating systems, compilers, anything to do with hardware/memory","idealMentor":"Someone from a game development company like Blizzard, etc., expert in developing games and increasing performance"},"expectedPos":["mobile_development","game_development"],"expectedNeg":["systems_programming","computer_hardware_and_architecture"]}
+  ✅ Valid
+  ✅ Reasonable ratings
+  Testing consistency (3 runs)...
+  Average similarity: 0.9999999999999997
+  Min similarity: 0.9999999999999998
+  ✅ Consistent
+{
+  artificial_intelligence_and_machine_learning: 0,
+  backend_development: 0,
+  computational_biology: 0,
+  computer_hardware_and_architecture: -1,
+  cryptocurrency_and_blockchain: 0,
+  cybersecurity: 0,
+  data_science_and_analytics: 0,
+  databases_and_data_management: 0,
+  devops_and_cloud_infrastructure: 0,
+  education_and_teaching: 0,
+  embedded_systems_and_iot: 0,
+  entrepreneurship_and_startups: 0,
+  frontend_development: 0,
+  full_stack_development: 0,
+  game_development: 1,
+  mobile_development: 1,
+  quantum_computing: 0,
+  research_and_academia: 0,
+  systems_programming: -1,
+  ui_ux_design_and_human_computer_interaction: 0,
+  web_development: 0
+}
+
+
+=== EVALUATION COMPLETE ===
