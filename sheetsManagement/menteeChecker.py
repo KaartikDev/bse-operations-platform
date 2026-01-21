@@ -25,9 +25,6 @@ MENTEE_SHEET_ID = "1854902018"
 
 # forms should be 1 form per email and editable and copies of responses should be sent to the user
 
-# there's currently a bug where there needs to be at least one verified entry in the mentee spreadsheet or else the program will encounter an index error 
-# when checking verification status since only non-empty entries are taken from the API call
-
 def run():
     """
     Checks mentee assignments in a Google Sheet.
