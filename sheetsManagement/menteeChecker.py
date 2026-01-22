@@ -60,7 +60,10 @@ def run():
     print("\nRows to verify:", rows_to_verify)
 
     # 4. for those who need to be verified, verify them against the GM spreadsheet
-    # Check if they're 1) a GM and 2) their name matches the GM names and 3) they're not already/were a mentee
+    # Check if they're 
+    # 1) a GM 
+    # 2) their name matches the GM names 
+    # 3) they're not already/were a mentee 
     # the current logic for checking if they were a past mentee only checks at the time of submission. 
     # if the row is already verified, the code won't check it but skip over it since it'll see it's already been verified as a GM
     # this is a possible bug, but may not be a big issue since the verification is only done once when the application is first submitted
@@ -93,6 +96,7 @@ def run():
                     print(f"UID {UID} has already been a mentee before. Marking row {row} for deletion.")
                     rows_was_already_mentee.append(row)
                     break
+
                 print("Finished checking entry.")
                 break
         else:
