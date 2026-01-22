@@ -2,18 +2,23 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 # Mapping Spreadsheet Columns
-MENTEE__NUMBER_OF_COLUMNS = 12   # Total number of columns in the mentee spreadsheet
-MENTEE_VERIFICATION_COLUMN_LETTER = "L"
-MENTEE_VERIFICATION_COLUMN_INDEX = 11 # "L" column in Mentee sheet
+MENTEE__NUMBER_OF_COLUMNS = 13   # Total number of columns in the mentee spreadsheet
+MENTEE_LAST_COLUMN_LETTER = "M" # Last column letter in Mentee sheet
 MENTEE_EMAIL_COLUMN_INDEX = 1   # "B" column in Mentee sheet
 MENTEE_FIRST_NAME_COLUMN_INDEX = 2 # "C" column in Mentee sheet
 MENTEE_LAST_NAME_COLUMN_INDEX = 3 # "D" column in Mentee sheet
 MENTEE_BSE_ID_COLUMN_INDEX = 5  # "F" column in Mentee sheet
+MENTEE_VERIFICATION_COLUMN_LETTER = "L"
+MENTEE_VERIFICATION_COLUMN_INDEX = 11 # "L" column in Mentee sheet
+MENTEE_WAS_PAST_MENTEE_COLUMN_LETTER = "M"
+MENTEE_WAS_PAST_MENTEE_COLUMN_INDEX = 12 # "M" column in Mentee sheet
 
 ALUMNI_NUMBER_OF_COLUMNS = 6    # Total number of columns in the alumni spreadsheet
 
-GM_NUMBER_OF_COLUMNS = 17       # Total number of columns in the GM spreadsheet
+GM_NUMBER_OF_COLUMNS = 18       # Total number of columns in the GM spreadsheet
+GM_LAST_COLUMN_LETTER = "R"   # Last column letter in GM sheet
 GM_BSE_ID_COLUMN_INDEX = 16     # "Q" column in GM sheet
+GM_ALREADY_MENTEE_COLUMN_INDEX = 17 # "R" column in GM sheet
 
 def create_service(CREDS):
     """ Creates and returns the service object """
