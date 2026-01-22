@@ -7,7 +7,7 @@ from menteeChecker import authenticate
 def main():
     creds = authenticate()
     gmail_service = build("gmail", "v1", credentials=creds)
-    send_mentee_is_not_GM(gmail_service, "boby9er@gmail.com", "Test", "This is a test email sent via Gmail API.")
+    send_mentee_is_not_GM(gmail_service, "bryanqi@g.ucla.edu", "Test", "This is a test email sent via Gmail API.")
 
 def send_mentee_is_not_GM(service, recipient, subject, body_text):
     """
