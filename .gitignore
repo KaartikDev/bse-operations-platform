@@ -1,0 +1,6 @@
+.venv/
+.qodo/
+credentials.json
+token.json
+__pycache__/
+notes/
