@@ -12,12 +12,12 @@ from utils import gmail
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/gmail.send"] # will need to move this later to a separate gmail/sheets specific file
 
 # ID and range of spreadsheet
-GM_SPREADSHEET_ID = "1tn13i4x-4FvcNhJkVbItN-NL8O1KoRSrRigG7kzk_7o"
-gm_spreadsheet_range = "Form Responses 1!A2:H13" # make ranges more dynamic later
-GM_SHEET_ID = "1860039305"
-MENTEE_SPREADSHEET_ID = "1rUKkp-oVRsfVDDB32VKo9N-Y1rSf5lvSjRn5P9Pousk"
-mentee_spreadsheet_range = "Form Responses 1!A2:H13"
-MENTEE_SHEET_ID = "1854902018"
+GM_SPREADSHEET_ID = "1Xngw94j6M21rG-YEQLHbPTnTDtBW9sMhTSky2CXTYdY"
+gm_spreadsheet_range = f"Members Jan 2026!A2:Q{sheets.GM_NUMBER_OF_COLUMNS}" # make ranges more dynamic later
+GM_SHEET_ID = "286014913"
+MENTEE_SPREADSHEET_ID = "1myZZASczHp7fzHchePcb4cVuQHYxOow6YOXAPHcXPHY"
+mentee_spreadsheet_range = f"Form Responses 1!A2:L{sheets.MENTEE__NUMBER_OF_COLUMNS}" # make ranges more dynamic later
+MENTEE_SHEET_ID = "829339717"
 
 # Notes: 
 # Columns: default spreadsheet starts from A = index 0
@@ -42,8 +42,11 @@ def run():
     # 1. get entire list of mentee applicants
     mentee_ls = sheets.get_entries(sheet, MENTEE_SPREADSHEET_ID, mentee_spreadsheet_range, "Mentee")
     # 2. normalize the table to ensure all rows have the same number of columns
+    print("nomralizing entreis")
     mentee_entries = sheets.normalize_table(mentee_ls[0], 2)
+    print("\n")
     print(mentee_entries)
+    print("\n")
     # 3. for each applicant, check if they are verified via the verification column and if not, add it to a list to be verified
     # Use enumerate to get the 1-based index of each row
     rows_to_verify = []
@@ -53,19 +56,19 @@ def run():
             print(f"Row {index} is already verified.")
         else:
             rows_to_verify.append(index)
-
-    print("Rows to verify:", rows_to_verify)
+    
+    print("\nRows to verify:", rows_to_verify)
 
     # 4. for those who need to be verified, verify with GM sheet
     rows_to_reject = []
     GMrawls = sheets.get_entries(sheet, GM_SPREADSHEET_ID, gm_spreadsheet_range, "GM")
     GM_entries = sheets.normalize_table(GMrawls[0], 1)
     for row in rows_to_verify:
-        UID = mentee_entries[row-1][sheets.MENTEE_UID_COLUMN_INDEX]  # Adjust for 0-based index since enumerate counts entry 1 as 1 and not 0. 
+        UID = mentee_entries[row-1][sheets.MENTEE_BSE_ID_COLUMN_INDEX]  # Adjust for 0-based index since enumerate counts entry 1 as 1 and not 0. 
         print(f"Verifying row {row} with UID {UID}...")
         # search GM entries for matching UID
         for GM_entry in GM_entries:
-            GM_UID = GM_entry[sheets.GM_UID_COLUMN_INDEX]
+            GM_UID = GM_entry[sheets.GM_BSE_ID_COLUMN_INDEX]
             print(GM_UID)
             if UID == GM_UID:
                 print(f"Match found for UID {UID}. Verifying applicant name with GM name...")
@@ -143,36 +146,36 @@ def run():
     ### ---Send Emails to Rejected Applicants--- ###
     for row in rows_to_reject:
         recipient_email = sheets.get_email(mentee_entries[row-1])  # Adjust for 0-based index of mentee_entries
-        first_name = sheets.get_first_name(mentee_entries[row-1])  # Adjust for 0-based index of mentee_entries
-        last_name = sheets.get_last_name(mentee_entries[row-1])  # Adjust for 0-based index of mentee_entries
-        subject = f"[{first_name.upper()} {last_name.upper()}][APPLICATION ERROR][AUTOMATED EMAIL]"
-        body = (
-            f"""
-            Dear {first_name} {last_name},
+    #     first_name = sheets.get_first_name(mentee_entries[row-1])  # Adjust for 0-based index of mentee_entries
+    #     last_name = sheets.get_last_name(mentee_entries[row-1])  # Adjust for 0-based index of mentee_entries
+    #     subject = f"[{first_name.upper()} {last_name.upper()}][APPLICATION ERROR][AUTOMATED EMAIL]"
+    #     body = (
+    #         f"""
+    #         Dear {first_name} {last_name},
 
-            Thank you for your interest in becoming a mentee. 
-            This is an automated message regarding your application to participate in the BSE Mentorship Program.
-            After our system reviewed your application, we could not verify your status as a General Member of BSE. 
-            This could be due to various reasons:
+    #         Thank you for your interest in becoming a mentee. 
+    #         This is an automated message regarding your application to participate in the BSE Mentorship Program.
+    #         After our system reviewed your application, we could not verify your status as a General Member of BSE. 
+    #         This could be due to various reasons:
             
-            1. You have not submitted the General Member form yet. You must be a General Member to participate.
-            2. The UID you provided in either your General Member form or Mentee Application form don't match.
-            3. The first and last names you provided in the General Member form don't match those in your Mentee Application form.
+    #         1. You have not submitted the General Member form yet. You must be a General Member to participate.
+    #         2. The UID you provided in either your General Member form or Mentee Application form don't match.
+    #         3. The first and last names you provided in the General Member form don't match those in your Mentee Application form.
             
-            In order to be eligible for the Mentorship Program, all of the above must be resolved.
-            Your application has not been deleted, but will not be considered until the issue is resolved.
-            You have the ability to edit your responses in the Mentee Application form and General Member form. 
-            Pleases check to ensure all of the information is correct and consistent.
+    #         In order to be eligible for the Mentorship Program, all of the above must be resolved.
+    #         Your application has not been deleted, but will not be considered until the issue is resolved.
+    #         You have the ability to edit your responses in the Mentee Application form and General Member form. 
+    #         Pleases check to ensure all of the information is correct and consistent.
 
-            If you believe this message was sent in error, you may reply to this email to ask for a manual review of your information.
+    #         If you believe this message was sent in error, you may reply to this email to ask for a manual review of your information.
 
 
-            Best regards,
-            The BSE Team
-            """
-        )
+    #         Best regards,
+    #         The BSE Team
+    #         """
+    #     )
         
-        gmail.send_mentee_is_not_GM(gmail_service, recipient_email, subject, body)
+    #     gmail.send_mentee_is_not_GM(gmail_service, recipient_email, subject, body)
         print(f"Sending email to {recipient_email}...")
         
 
