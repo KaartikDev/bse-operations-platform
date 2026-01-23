@@ -1,9 +1,11 @@
 import json
+from re import I
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
+from difflib import SequenceMatcher
 from alumni import get_alumnus_rating
 from student import get_student_rating, new_prompt
-from buckets import BUCKETS
+from constants import BUCKETS
 
 ALUMNI_TEST_CASES = [
   {
@@ -15,7 +17,8 @@ ALUMNI_TEST_CASES = [
       "bio": "I am a UCLA alumn working as a Software Engineer at Datadog. I work on distributed query engines and execution. I am excited to help students learn more about the field."
     },
     "expected_pos": ["systems_programming", "databases_and_data_management"],
-    "expected_neg": ["artificial_intelligence_and_machine_learning"]
+    "expected_neg": ["artificial_intelligence_and_machine_learning"],
+    "expected_employer": ["Datadog"]
   },
   {
     "input": {
@@ -26,7 +29,8 @@ ALUMNI_TEST_CASES = [
       "bio": "Hi! I'm a UCLA alum (Master's in Computer Science, 2016, with focus in AI/ML and computer vision) currently working as a machine learning engineer at Pinterest's Visual Search team. I also teach part-time at UC Berkeley (Data Science Undergraduate Studies program), where I have taught an Intro to Python and an Intro to Deep Learning course. I'm looking forward to help students that are curious about any of the following: AI/ML/computer-vision/recommendation-systems, education, industry vs academia/grad-school, and/or what it's like working in industry! In my free time, I enjoy playing music (piano, bass, guitar, singing), video games, and watching movies (I love Pixar movies, and animation/film in general!)."
     },
     "expected_pos": ["artificial_intelligence_and_machine_learning", "education_and_teaching", "research_and_academia"],
-    "expected_neg": []
+    "expected_neg": [],
+    "expected_employer": ["Pinterest", "UC Berkeley"]
   },
   {
     "input": {
@@ -37,7 +41,8 @@ ALUMNI_TEST_CASES = [
       "bio": "I'm a UCLA alum who previously worked as a Flight Software Engineer at SpaceX and currently works as a consultant at Varda Space Industries, and Relativity; excited to provide guidance on embedded software development, and the Aerospace & Defense industry."
     },
     "expected_pos": ["embedded_systems_and_iot"],
-    "expected_neg": ["artificial_intelligence_and_machine_learning"]
+    "expected_neg": ["artificial_intelligence_and_machine_learning"],
+    "expected_employer": ["Varda", "Relativity"]
   },
   {
     "input": {
@@ -48,7 +53,8 @@ ALUMNI_TEST_CASES = [
       "bio": "I'm a software engineer at Veeva Systems, happy to talk about getting into industry or anything research!"
     },
     "expected_pos": ["research_and_academia"],
-    "expected_neg": []
+    "expected_neg": [],
+    "expected_employer": ["Veeva"]
   },
   {
     "input": {
@@ -58,8 +64,9 @@ ALUMNI_TEST_CASES = [
       "interestToAvoid": "n.a",
       "bio": "I'm a software engineer at intuit, though i've worked at 10+ companies, startups and had higher level roles, have worked web/backend/android mobile and am happy to chat about anything"
     },
-    "expected_pos": ["web_development", "backend_development", "mobile_development"],
-    "expected_neg": []
+    "expected_pos": ["full_stack_web_development", "backend_development", "mobile_development"],
+    "expected_neg": [],
+    "expected_employer": ["Intuit"]
   },
 ]
 
@@ -71,7 +78,8 @@ STUDENT_TEST_CASES = [
       "ideal_mentor": "They would work at any company, whether Big Tech or a startup. They would be knowledgeable in many fields but hopefully at least full-stack. I don't care much about their background, just whether they are able to assist and connect with me."
     },
     "expected_pos": ["artificial_intelligence_and_machine_learning", "devops_and_cloud_infrastructure", "systems_programming", "computational_biology", "embedded_systems_and_iot", "computer_hardware_and_architecture"],
-    "expected_neg": ["cryptocurrency_and_blockchain"]
+    "expected_neg": ["cryptocurrency_and_blockchain"],
+    "expected_employer": []
   },
   {
     "input": {
@@ -80,7 +88,8 @@ STUDENT_TEST_CASES = [
       "ideal_mentor": "I’m looking for mentorship on navigating the path to big tech roles, including technical interview preparation and long term career positioning. I’d also value guidance on planning coursework strategically and weighing the tradeoffs between industry experience and pursuing graduate school."
     },
     "expected_pos": ["backend_development", "databases_and_data_management"],
-    "expected_neg": []
+    "expected_neg": [],
+    "expected_employer": []
   },
   {
     "input": {
@@ -89,7 +98,8 @@ STUDENT_TEST_CASES = [
       "ideal_mentor": "Someone from a game development company like Blizzard, etc., expert in developing games and increasing performance"
     },
     "expected_pos": ["mobile_development", "game_development"],
-    "expected_neg": ["systems_programming", "computer_hardware_and_architecture"]
+    "expected_neg": ["systems_programming", "computer_hardware_and_architecture"],
+    "expected_employer": ["Blizzard"]
   },
 ]
 
@@ -97,6 +107,8 @@ EXPECTED_POS_THRESHOLD = 0.25  # positive interests should be at least 0.25
 EXPECTED_NEG_THRESHOLD = -0.25  # negative interests should be at most -0.25
 CONSISTENCY_RUNS = 3  # number of runs to test consistency
 CONSISTENCY_THRESHOLD = 0.75  # consistency should be at least 0.75
+NUMERIC_WEIGHT = 0.9 # weight of numeric similarity
+EMPLOYER_WEIGHT = 0.1 # weight of employer similarity
 
 def validate_rating(rating):
     errors = []
@@ -104,6 +116,9 @@ def validate_rating(rating):
     for bucket in BUCKETS:
         if bucket not in rating:
             errors.append(f"Missing bucket: {bucket}")
+        elif bucket == "employer":
+            if not isinstance(rating[bucket], str):
+                errors.append(f"Invalid type for employer: expected string, got {type(rating[bucket])}")
         elif not isinstance(rating[bucket], (int, float)):
             errors.append(f"Invalid type for {bucket}: expected number, got {type(rating[bucket])}")
         elif rating[bucket] < -1 or rating[bucket] > 1:
@@ -115,7 +130,7 @@ def validate_rating(rating):
     
     return errors
 
-def check_reasonableness(rating, expected_pos, expected_neg):
+def check_reasonableness(rating, expected_pos, expected_neg, expected_employer):
     issues = []
     
     for bucket in expected_pos:
@@ -125,8 +140,24 @@ def check_reasonableness(rating, expected_pos, expected_neg):
     for bucket in expected_neg:
         if rating[bucket] > EXPECTED_NEG_THRESHOLD:
             issues.append(f"Expected low rating for {bucket}, got {rating[bucket]}")
+
+    for employer in expected_employer:
+        if employer.lower().strip() not in rating["employer"].lower().strip():
+            issues.append(f"Expected employer {employer} not found in {rating['employer']}")
     
     return issues
+
+def compute_similarity(rating1, rating2):
+    numeric_similarity = cosine_similarity(np.array(rating1[:-1]).reshape(1, -1), np.array(rating2[:-1]).reshape(1, -1))[0][0]
+    emp_similarity = employer_similarity(rating1[-1], rating2[-1])
+
+    return NUMERIC_WEIGHT * numeric_similarity + EMPLOYER_WEIGHT * emp_similarity
+
+def employer_similarity(employer1, employer2):
+    if not employer1 or not employer2:
+        return 0.0
+    
+    return SequenceMatcher(None, employer1.lower().strip(), employer2.lower().strip()).ratio()
 
 def test_consistency(rating_fn, input, prompt=None):
     results = []
@@ -142,7 +173,7 @@ def test_consistency(rating_fn, input, prompt=None):
     
     for i in range(len(results)):
         for j in range(i + 1, len(results)):
-            similarity = cosine_similarity(np.array(results[i]).reshape(1, -1), np.array(results[j]).reshape(1, -1))[0][0]
+            similarity = compute_similarity(results[i], results[j])
             similarities.append(similarity)
     
     return {
@@ -159,7 +190,7 @@ def get_evaluation(rating, person, rating_fn, prompt=None):
         print(f"  ✅ Valid")
 
     print("  Checking reasonableness...")
-    issues = check_reasonableness(rating, person["expected_pos"], person["expected_neg"])
+    issues = check_reasonableness(rating, person["expected_pos"], person["expected_neg"], person["expected_employer"])
     if issues:
         print(f"  ❌ Issues: {', '.join(issues)}")
     else:

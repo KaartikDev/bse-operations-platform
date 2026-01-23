@@ -2,7 +2,7 @@ import csv
 import json
 import random
 from groq import Groq
-from buckets import BUCKETS
+from constants import BUCKETS, model
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -10,6 +10,8 @@ load_dotenv()
 schema = {}
 for bucket in BUCKETS:
     schema[bucket] = {"type": "number"}
+
+schema["employer"] = {"type": "string"}
 
 client = Groq()
 
@@ -25,12 +27,12 @@ Enter N/A if not applicable.
 Tip: Focus on specific projects, skills, or interests so we can pair you with a mentor. 
 EX: I'm working on a social media web app, advice from a Meta SWE would help me improve XXX.
 """
-old_prompt = f"Extract computer science interest information from the following student's answer to the application question: {application_question}. Rate the person's interest in each computer science field from -1 to 1, where -1 is very negative and 1 is very positive. If they do not state any interest in a field, rate it as 0."
-new_prompt = "Extract computer science interest information from the following student's answer, disinterests, and what their ideal mentor would look like. Rate the person's interest in each computer science field from -1 to 1, where -1 is very negative and 1 is very positive. If they do not state any interest in a field, rate it as 0."
+old_prompt = f"Extract computer science interest information from the following student's answer to the application question: {application_question}. Rate the person's interest in each computer science field from -1 to 1, where -1 is very negative and 1 is very positive. If they do not state any interest in a field, rate it as 0. For the employer field, extract the name(s) of the company(ies) where the student would like to work at or where their ideal mentor works at."
+new_prompt = "Extract computer science interest information from the following student's answer, disinterests, and what their ideal mentor would look like. Rate the person's interest in each computer science field from -1 to 1, where -1 is very negative and 1 is very positive. If they do not state any interest in a field, rate it as 0. For the employer field, extract the name(s) of the company(ies) where the student would like to work at or where their ideal mentor works at."
 
 def get_student_rating(student, prompt):
     response = client.chat.completions.create(
-        model="openai/gpt-oss-120b",
+        model=model,
         messages=[
             {
                 "role": "system",
@@ -56,7 +58,10 @@ def get_student_rating(student, prompt):
         },
     )
     
-    return json.loads(response.choices[0].message.content or "{}")
+    rating = json.loads(response.choices[0].message.content or "{}")
+    result = {bucket: float(value) for bucket, value in rating.items() if bucket != "employer"}
+    result["employer"] = str(rating["employer"])
+    return result
 
 if __name__ == "__main__":
     N = 5
