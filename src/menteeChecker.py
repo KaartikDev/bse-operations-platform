@@ -85,7 +85,6 @@ def run_mentee_checker():
                 "range": f"Form Responses 1!{sheets.MENTEE_NOTIFICATION_STATE_COLUMN_LETTER}{index}",
                 "values": [[target_state]]
             })
-
     # 5. Execute all updates in ONE batch call at the end
     if all_update_requests:
         batch_body = {
