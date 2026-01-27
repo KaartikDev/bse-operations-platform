@@ -64,7 +64,7 @@ def run_mentee_checker():
             #### ---Gmail Notification Implementation--- ####
             # 1. Send the email (this only happens once per change!)
             recipient_email = sheets.get_email(mentee_entry)
-            # gmail.send_specific_notification(gmail_service, recipient_email, target_state, mentee_entry)
+            # gmail.send_mentorship_notification(gmail_service, recipient_email, target_state, mentee_entry)
 
             # B. Prepare Spreadsheet Updates
             is_verified = "Yes" if target_state == "VERIFIED" else "No"

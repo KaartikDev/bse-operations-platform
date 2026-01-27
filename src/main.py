@@ -7,9 +7,14 @@
 import schedule
 import time
 from menteeChecker import run_mentee_checker
+from checker import runChecker
 
 def main():
-    schedule.every().minute.do(run_mentee_checker)
+    # schedule.every().minute.do(run_mentee_checker)
+
+    #Jane Street Checker
+    schedule.every().minute.do(runChecker("1bJcGFdZnSSlRCgARXxkFcMMMAl4t5T0tCStawPVFFrQ", "1917791920", "Form Responses 1", "Jane Street")
+)
     while True:
         schedule.run_pending()
         time.sleep(1)

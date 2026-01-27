@@ -4,7 +4,7 @@ from googleapiclient.errors import HttpError
 # Mapping Spreadsheet Columns
 MENTEE_NUMBER_OF_COLUMNS = 14   # Total number of columns in the mentee spreadsheet
 MENTEE_LAST_COLUMN_LETTER = "N" # Last column letter in Mentee sheet
-MENTEE_EMAIL_COLUMN_INDEX = 1   # "B" column in Mentee sheet
+MENTEE_EMAIL_COLUMN_INDEX = 4   # "E" column in Mentee sheet
 MENTEE_FIRST_NAME_COLUMN_INDEX = 2 # "C" column in Mentee sheet
 MENTEE_LAST_NAME_COLUMN_INDEX = 3 # "D" column in Mentee sheet
 MENTEE_BSE_ID_COLUMN_INDEX = 5  # "F" column in Mentee sheet
@@ -21,6 +21,15 @@ GM_NUMBER_OF_COLUMNS = 18       # Total number of columns in the GM spreadsheet
 GM_LAST_COLUMN_LETTER = "R"   # Last column letter in GM sheet
 GM_BSE_ID_COLUMN_INDEX = 16     # "Q" column in GM sheet
 GM_ALREADY_MENTEE_COLUMN_INDEX = 17 # "R" column in GM sheet
+
+# New Spreadsheet Constants/Standard -- These values will always be in these columns
+first_name_clm_ltr = "C"     # first name will always be at column C
+first_name_clm_idx = 2
+last_name_clm_ltr = "D"      # last name will always be at column D
+last_name_clm_idx = 3
+ucla_email_clm_ltr = "E"     # ucla email will always be at column E
+ucla_email_clm_idx = 4
+entry_status_clm_idx_addition = 1 # the status column of each entry will always be +1 from the very last column 
 
 def create_service(CREDS):
     """ Creates and returns the service object """
