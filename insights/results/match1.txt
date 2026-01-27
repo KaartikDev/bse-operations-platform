@@ -9,57 +9,26 @@ Rating: {
     "bio": "I'm a software engineer at intuit, though i've worked at 10+ companies, startups and had higher level roles, have worked web/backend/android mobile and am happy to chat about anything"
 }
 {
-    "artificial_intelligence_and_machine_learning": 0.0,
-    "backend_development": 1.0,
-    "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 0.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "education_and_teaching": 0.0,
     "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.5,
-    "frontend_development": 0.5,
-    "full_stack_web_development": 1.0,
-    "game_development": 0.0,
-    "mobile_development": 1.0,
-    "quantum_computing": 0.0,
-    "research_and_academia": 0.0,
-    "systems_programming": 0.0,
-    "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "intuit"
-}
-Rating: {
-    "company": "AWS",
-    "role": "software engineer",
-    "interests": "",
-    "avoid_interests": "N/A",
-    "bio": "I am a UCLA alum working at AWS for the networking org, and I live in seattle. I\u201a\u00c4\u00f4m interested in keyboards, home labs, biking, and anything tech. "
-}
-{
-    "artificial_intelligence_and_machine_learning": 0.0,
-    "backend_development": 0.7,
+    "systems_and_hardware_programming": 0.0,
     "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.8,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 0.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 0.0,
-    "devops_and_cloud_infrastructure": 0.9,
-    "education_and_teaching": 0.0,
-    "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
-    "mobile_development": 0.0,
     "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.3,
     "research_and_academia": 0.0,
-    "systems_programming": 0.9,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.2,
+    "backend_development": 0.5,
+    "full_stack_development": 0.4,
+    "mobile_development": 0.5,
     "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "AWS"
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Intuit"
+    ]
 }
 Rating: {
     "company": "Abnormal AI",
@@ -69,207 +38,26 @@ Rating: {
     "bio": "I'm an UCLA alum with 10+ years in tech. I'm currently at Abnormal AI working as an engineering leader. My expertise is in backend, data, ML and AI."
 }
 {
+    "embedded_systems_and_iot": 0.5,
+    "systems_and_hardware_programming": 0.5,
+    "computational_biology": 0.5,
+    "quantum_computing": 0.5,
+    "cybersecurity": 0.5,
+    "game_development": 0.5,
+    "entrepreneurship_and_startups": 0.5,
+    "research_and_academia": 0.5,
+    "education_and_teaching": 0.5,
     "artificial_intelligence_and_machine_learning": 1.0,
-    "backend_development": 1.0,
-    "computational_biology": 1.0,
-    "computer_hardware_and_architecture": 1.0,
-    "cryptocurrency_and_blockchain": 1.0,
-    "cybersecurity": 1.0,
-    "data_science_and_analytics": 1.0,
-    "databases_and_data_management": 1.0,
-    "devops_and_cloud_infrastructure": 1.0,
-    "education_and_teaching": 1.0,
-    "embedded_systems_and_iot": 1.0,
-    "entrepreneurship_and_startups": 1.0,
-    "frontend_development": 1.0,
-    "full_stack_web_development": 1.0,
-    "game_development": 1.0,
-    "mobile_development": 1.0,
-    "quantum_computing": 1.0,
-    "research_and_academia": 1.0,
-    "systems_programming": 1.0,
-    "ui_ux_design_and_human_computer_interaction": 1.0,
-    "employer": "Abnormal AI"
-}
-Rating: {
-    "company": "LinkedIn",
-    "role": "Software Engineer",
-    "interests": "CS-related major",
-    "avoid_interests": "N/A",
-    "bio": "Hello I\u201a\u00c4\u00f4m a new UCLA alum working as a data infra software engineer at LinkedIn, excited to help students with SWE recruiting and share my experience as a new grad engineer."
-}
-{
-    "artificial_intelligence_and_machine_learning": 0.0,
-    "backend_development": 1.0,
-    "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 0.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 1.0,
-    "devops_and_cloud_infrastructure": 1.0,
-    "education_and_teaching": 1.0,
-    "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
-    "mobile_development": 0.0,
-    "quantum_computing": 0.0,
-    "research_and_academia": 0.0,
-    "systems_programming": 0.0,
-    "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "LinkedIn"
-}
-Rating: {
-    "company": "Amazon",
-    "role": "Software Engineer",
-    "interests": "",
-    "avoid_interests": "N/A",
-    "bio": "I'm a UCLA alum working out of seattle for amazon for a little over 3 years now, excited to talk to students about how to navigate post grad life/transitioning to corporate life."
-}
-{
-    "artificial_intelligence_and_machine_learning": 0.0,
-    "backend_development": 0.0,
-    "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 0.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "education_and_teaching": 0.0,
-    "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
-    "mobile_development": 0.0,
-    "quantum_computing": 0.0,
-    "research_and_academia": 0.0,
-    "systems_programming": 0.0,
-    "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "Amazon"
-}
-Rating: {
-    "company": "Amazon",
-    "role": "Software Engineer",
-    "interests": "transfer",
-    "avoid_interests": "N/A",
-    "bio": ""
-}
-{
-    "artificial_intelligence_and_machine_learning": 0.0,
-    "backend_development": 0.0,
-    "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 0.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "education_and_teaching": 0.0,
-    "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
-    "mobile_development": 0.0,
-    "quantum_computing": 0.0,
-    "research_and_academia": 0.0,
-    "systems_programming": 0.0,
-    "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "Amazon"
-}
-Rating: {
-    "company": "Figma",
-    "role": "Software Engineer",
-    "interests": "N/A",
-    "avoid_interests": "Na",
-    "bio": "Hello!! I\u201a\u00c4\u00f4m a ucla grad working at figma as a swe. Looking forward to chatting :)"
-}
-{
-    "artificial_intelligence_and_machine_learning": 0.0,
-    "backend_development": 0.0,
-    "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 0.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "education_and_teaching": 0.0,
-    "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
-    "mobile_development": 0.0,
-    "quantum_computing": 0.0,
-    "research_and_academia": 0.0,
-    "systems_programming": 0.0,
-    "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "Figma"
-}
-Rating: {
-    "company": "Microsoft",
-    "role": "Security Software Engineer II",
-    "interests": "woman / non-binary and/or queer (lgbtqia+) person preferred",
-    "avoid_interests": "N/A",
-    "bio": "I graduated from the CSE major in 2019 and work within AI Safety & Security at Microsoft! I interned 2x at Microsoft and have experience in offensive security engineering - I\u201a\u00c4\u00f4m happy to connect folks to my network and share more about cybersecurity and red teaming!"
-}
-{
-    "artificial_intelligence_and_machine_learning": 1.0,
-    "backend_development": 0.0,
-    "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 1.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "education_and_teaching": 0.0,
-    "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
-    "mobile_development": 0.0,
-    "quantum_computing": 0.0,
-    "research_and_academia": 0.0,
-    "systems_programming": 0.0,
-    "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "Microsoft"
-}
-Rating: {
-    "company": "Veeva",
-    "role": "",
-    "interests": "N/A",
-    "avoid_interests": "N/A",
-    "bio": "I'm a software engineer at Veeva Systems, happy to talk about getting into industry or anything research!"
-}
-{
-    "computer_hardware_and_architecture": 0.0,
-    "embedded_systems_and_iot": 0.0,
-    "systems_programming": 0.5,
-    "computational_biology": 0.0,
-    "quantum_computing": 0.0,
-    "cybersecurity": 0.0,
-    "databases_and_data_management": 0.0,
-    "full_stack_web_development": 0.5,
     "frontend_development": 0.5,
-    "ui_ux_design_and_human_computer_interaction": 0.0,
-    "backend_development": 0.5,
-    "mobile_development": 0.0,
-    "data_science_and_analytics": 0.0,
-    "artificial_intelligence_and_machine_learning": 0.0,
-    "game_development": 0.0,
-    "devops_and_cloud_infrastructure": 0.5,
-    "entrepreneurship_and_startups": 0.0,
-    "research_and_academia": 1.0,
-    "education_and_teaching": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "employer": "Veeva"
+    "backend_development": 1.0,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.5,
+    "ui_ux_design_and_human_computer_interaction": 0.5,
+    "fintech": 0.5,
+    "data_science_and_analytics": 1.0,
+    "companies": [
+        "Abnormal AI"
+    ]
 }
 Rating: {
     "company": "ex Microsfot",
@@ -279,371 +67,900 @@ Rating: {
     "bio": "I've worked on both Microsoft Word and a UCLA-run NASA mission; I like advocacy, AI (when practiced responsibly), and art."
 }
 {
-    "artificial_intelligence_and_machine_learning": 1.0,
-    "backend_development": 0.0,
+    "embedded_systems_and_iot": 0.2,
+    "systems_and_hardware_programming": 0.2,
     "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 0.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "education_and_teaching": 0.0,
-    "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
-    "mobile_development": 0.0,
     "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.5,
+    "education_and_teaching": 0.5,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.3,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.4,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "ex Microsfot"
+    ]
+}
+Rating: {
+    "company": "Amazon",
+    "role": "Software Engineer",
+    "interests": "",
+    "avoid_interests": "N/A",
+    "bio": "I'm a UCLA alum working out of seattle for amazon for a little over 3 years now, excited to talk to students about how to navigate post grad life/transitioning to corporate life."
+}
+{
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
     "research_and_academia": 0.0,
-    "systems_programming": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
     "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "ex Microsfot"
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Amazon"
+    ]
+}
+Rating: {
+    "company": "Vanta",
+    "role": "Full stack software engineer",
+    "interests": "Woman in tech, interested in startups",
+    "avoid_interests": "I probably won't be super helpful for mentees interested in doing AI/ML heavy roles. Most of my experience is as a full stack SWE using AI tools!",
+    "bio": "I'm a UCLA alum currently working as a Software Engineer at Vanta, and previously co-founded a startup and worked at Tesla. I'm happy to help talk through big vs small companies, startups and entrepreneurship, frontend and backend development, and using AI tools as part of your workflows!"
+}
+{
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 1.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": -0.5,
+    "frontend_development": 1.0,
+    "backend_development": 1.0,
+    "full_stack_development": 1.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Vanta"
+    ]
+}
+Rating: {
+    "company": "Self-employed (currently on contract with Varda and Relativity)",
+    "role": "Software Consultant",
+    "interests": "Prefer students interested in embedded software but this is not a hard requirement.",
+    "avoid_interests": "Would like to avoid students solely interested in AI as that's not where my expertise lies.",
+    "bio": "I'm a UCLA alum who previously worked as a Flight Software Engineer at SpaceX and currently works as a consultant at Varda Space Industries, and Relativity; excited to provide guidance on embedded software development, and the Aerospace & Defense industry."
+}
+{
+    "embedded_systems_and_iot": 1.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": -1.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Varda Space Industries",
+        "Relativity"
+    ]
+}
+Rating: {
+    "company": "Rubrik",
+    "role": "Software engineer ",
+    "interests": "I would likely provide the most value to someone who wants to go into software engineering. Major doesn\u201a\u00c4\u00f4t matter too much. It\u201a\u00c4\u00f4s a bonus if they are good at holding conversations!",
+    "avoid_interests": "If you have a hyper focused interest like ai, crypto, hft, or something and that\u201a\u00c4\u00f4s mostly what you want to discuss, I would not be a great match. I do pretty domain agnostic software engineering.",
+    "bio": "Hey! I\u201a\u00c4\u00f4m a 2019 ucla alum working at Rubrik (startup to post ipo). "
+}
+{
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.8,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": -0.6,
+    "frontend_development": 0.5,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.5,
+    "ui_ux_design_and_human_computer_interaction": 0.5,
+    "fintech": -0.6,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Rubrik"
+    ]
+}
+Rating: {
+    "company": "\ufeffDatadog",
+    "role": "Software engineer (distributed systems and query engines)",
+    "interests": "No preference",
+    "avoid_interests": "People obsessed with AI",
+    "bio": "I am a UCLA alumn working as a Software Engineer at Datadog. I work on distributed query engines and execution. I am excited to help students learn more about the field."
+}
+{
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": -1.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Datadog"
+    ]
+}
+Rating: {
+    "company": "Chorus",
+    "role": "Backend Software Engineer",
+    "interests": "Interest in software",
+    "avoid_interests": "N/A",
+    "bio": "I\u201a\u00c4\u00f4m a UCLA alum working as a software engineer at a Google spinoff called Chorus who is also studying ML in grad school."
+}
+{
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.5,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.0,
+    "backend_development": 1.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.5,
+    "companies": [
+        "Chorus"
+    ]
+}
+Rating: {
+    "company": "Figma",
+    "role": "Software Engineer",
+    "interests": "N/A",
+    "avoid_interests": "Na",
+    "bio": "Hello!! I\u201a\u00c4\u00f4m a ucla grad working at figma as a swe. Looking forward to chatting :)"
+}
+{
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Figma"
+    ]
 }
 
 === RATING 10 STUDENTS ===
 
-Rating: "- I'm interested in learning more about the different career opportunities that I can pursue studying applied mathematics\n- Advice from a mentor would help me gain an understanding of the field and the different paths I can take"
-{
-    "artificial_intelligence_and_machine_learning": 0.0,
-    "backend_development": 0.0,
-    "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 0.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "education_and_teaching": 0.0,
-    "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
-    "mobile_development": 0.0,
-    "quantum_computing": 0.0,
-    "research_and_academia": 0.0,
-    "systems_programming": 0.0,
-    "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "N/A"
+Rating: {
+    "input": {
+        "interests": "AI/ML, data engineering, applied statistics, recommender systems.",
+        "disinterests": "Low-level systems programming, hardware.",
+        "ideal_mentor": "An applied ML engineer at a consumer tech company like Netflix or Spotify. They should be strong at turning messy data into useful models and be honest about what ML can\u2019t solve."
+    },
+    "expected_pos": [
+        "artificial_intelligence_and_machine_learning"
+    ],
+    "expected_neg": [
+        "systems_and_hardware_programming"
+    ],
+    "expected_companies": [
+        "Netflix",
+        "Spotify"
+    ]
 }
-Rating: "- Interested in AI for healthcare (from research experience) and AI applied to cybersecurity (from AWS internship).\n- Would love mentorship from a Google SWE to explore how large companies approach cybersecurity and AI to help me refine my long-term career direction.\n- Especially interested in Google\u201a\u00c4\u00f4s company culture and day-to-day work style."
 {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": -0.8,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
     "artificial_intelligence_and_machine_learning": 1.0,
-    "backend_development": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.5,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.8,
+    "companies": [
+        "Netflix",
+        "Spotify"
+    ]
+}
+Rating: {
+    "input": {
+        "interests": "Security engineering, privacy, operating systems, networking.",
+        "disinterests": "Game development.",
+        "ideal_mentor": "A security engineer at a company like Cloudflare or a major cloud provider. Ideally someone with experience in both defensive security and systems-level programming."
+    },
+    "expected_pos": [
+        "cybersecurity",
+        "systems_and_hardware_programming"
+    ],
+    "expected_neg": [
+        "game_development"
+    ],
+    "expected_companies": [
+        "Cloudflare"
+    ]
+}
+{
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 1.0,
     "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
+    "quantum_computing": 0.0,
     "cybersecurity": 1.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "education_and_teaching": 0.0,
-    "embedded_systems_and_iot": 0.0,
+    "game_development": -1.0,
     "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
-    "mobile_development": 0.0,
-    "quantum_computing": 0.0,
-    "research_and_academia": 1.0,
-    "systems_programming": 0.0,
-    "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "Google"
-}
-Rating: "N/A"
-{
-    "artificial_intelligence_and_machine_learning": 0.0,
-    "backend_development": 0.0,
-    "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 0.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "education_and_teaching": 0.0,
-    "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
-    "mobile_development": 0.0,
-    "quantum_computing": 0.0,
     "research_and_academia": 0.0,
-    "systems_programming": 0.0,
-    "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "N/A"
-}
-Rating: "- I want to learn more about some industry roles that fit me and how to prepare early as a freshman\n- I want to get advice on my resume, internships, and personal projects\n- I want to have professional friend to talk to\n- Dream companies would be Google, Amazon, Microsoft, Meta etc..."
-{
-    "artificial_intelligence_and_machine_learning": 0.0,
-    "backend_development": 0.0,
-    "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 0.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
     "education_and_teaching": 0.0,
-    "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
     "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
     "mobile_development": 0.0,
-    "quantum_computing": 0.0,
-    "research_and_academia": 0.0,
-    "systems_programming": 0.0,
     "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "Google, Amazon, Microsoft, Meta"
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Cloudflare"
+    ]
 }
-Rating: "* I want to gain experience and knowledge from someone who has been working programming in low level languages and works with hardware\n* I want to understand the industry and gain fundamental experience to continue navigating my career forward\n* I am looking to meet people who work at Google, Meta, or Amazon"
+Rating: {
+    "input": {
+        "interests": "Backend and infrastructure engineering, with a focus on scalable systems, APIs, and data pipelines. Interested in developer platforms, reliability, and performance critical services. Enjoy building tools that support large numbers of users and enable other engineers to move faster.",
+        "disinterests": "N/A",
+        "ideal_mentor": "I\u2019m looking for mentorship on navigating the path to big tech roles, including technical interview preparation and long term career positioning. I\u2019d also value guidance on planning coursework strategically and weighing the tradeoffs between industry experience and pursuing graduate school."
+    },
+    "expected_pos": [
+        "backend_development"
+    ],
+    "expected_neg": [],
+    "expected_companies": []
+}
 {
-    "computer_hardware_and_architecture": 1.0,
-    "embedded_systems_and_iot": 1.0,
-    "systems_programming": 1.0,
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
     "computational_biology": 0.0,
     "quantum_computing": 0.0,
     "cybersecurity": 0.0,
-    "databases_and_data_management": 0.0,
-    "full_stack_web_development": 0.0,
-    "frontend_development": 0.0,
-    "ui_ux_design_and_human_computer_interaction": 0.0,
-    "backend_development": 0.0,
-    "mobile_development": 0.0,
-    "data_science_and_analytics": 0.0,
-    "artificial_intelligence_and_machine_learning": 0.0,
     "game_development": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
     "entrepreneurship_and_startups": 0.0,
     "research_and_academia": 0.0,
     "education_and_teaching": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "employer": "Google, Meta, Amazon"
-}
-Rating: "I recently worked on a social media app using Google Firebase, so I would like to work with a Google SWE to learn more about the mechanics of such databases, backend development, and cybersecurity"
-{
     "artificial_intelligence_and_machine_learning": 0.0,
-    "backend_development": 1.0,
-    "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 1.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.8,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
     "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 1.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "education_and_teaching": 0.0,
+    "companies": []
+}
+Rating: {
+    "input": {
+        "interests": "Game engines, graphics programming, C++, real-time systems.",
+        "disinterests": "Web development.",
+        "ideal_mentor": "An engineer working on game engines or graphics at a studio or company like NVIDIA. Strong math and low-level optimization background preferred."
+    },
+    "expected_pos": [
+        "game_development"
+    ],
+    "expected_neg": [
+        "full_stack_development"
+    ],
+    "expected_companies": [
+        "NVIDIA"
+    ]
+}
+{
     "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
-    "mobile_development": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
     "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 1.0,
+    "entrepreneurship_and_startups": 0.0,
     "research_and_academia": 0.0,
-    "systems_programming": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": -1.0,
+    "mobile_development": 0.0,
     "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "Google"
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "NVIDIA"
+    ]
 }
-Rating: "I'm a Linguistics and CS major so advice from any AI related company would help me understand the specific areas of both CS and linguistics I should focus on to be best prepared for the AI/SWE industry."
+Rating: {
+    "input": {
+        "interests": "Mobile/iOS development, game development",
+        "disinterests": "Operating systems, compilers, anything to do with hardware/memory",
+        "ideal_mentor": "Someone from a game development company like Blizzard, etc., expert in developing games and increasing performance"
+    },
+    "expected_pos": [
+        "mobile_development",
+        "game_development"
+    ],
+    "expected_neg": [
+        "systems_and_hardware_programming"
+    ],
+    "expected_companies": [
+        "Blizzard"
+    ]
+}
 {
+    "embedded_systems_and_iot": -1.0,
+    "systems_and_hardware_programming": -1.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 1.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 1.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Blizzard"
+    ]
+}
+Rating: {
+    "input": {
+        "interests": "Full-stack development, product engineering, developer tooling.",
+        "disinterests": "Pure research roles.",
+        "ideal_mentor": "A product-focused engineer at a fast-growing startup. Bonus points if they\u2019ve shipped multiple products end-to-end and can talk about balancing code quality with real deadlines."
+    },
+    "expected_pos": [
+        "full_stack_development"
+    ],
+    "expected_neg": [
+        "research_and_academia"
+    ],
+    "expected_companies": []
+}
+{
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": -1.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 1.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": []
+}
+Rating: {
+    "input": {
+        "interests": "Frontend, Backend, Python, Java, Web Development, Cloud Computing, System Design, AI Engineering, Machine Learning, C++",
+        "disinterests": "Cyber Security, Quantum Computing",
+        "ideal_mentor": "My ideal mentor would work in Big Tech (Google, Meta, Amazon, Nvidia, etc), ML/AI companies like (Waymo, OpenAI, Anthropic), or work in FinTech like (Sofi, PayPal, JaneStreet, HRT, etc) as a software developer."
+    },
+    "expected_pos": [
+        "frontend_development",
+        "backend_development",
+        "full_stack_development",
+        "artificial_intelligence_and_machine_learning",
+        "fintech"
+    ],
+    "expected_neg": [
+        "cybersecurity",
+        "quantum_computing"
+    ],
+    "expected_companies": [
+        "Google",
+        "Meta",
+        "Amazon",
+        "Nvidia",
+        "Waymo",
+        "OpenAI",
+        "Anthropic",
+        "Sofi",
+        "PayPal",
+        "JaneStreet",
+        "HRT"
+    ]
+}
+{
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": -1.0,
+    "cybersecurity": -1.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
     "artificial_intelligence_and_machine_learning": 1.0,
-    "backend_development": 0.0,
-    "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 0.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "education_and_teaching": 0.0,
-    "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
-    "mobile_development": 0.0,
-    "quantum_computing": 0.0,
-    "research_and_academia": 0.0,
-    "systems_programming": 0.0,
-    "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "N/A"
-}
-Rating: "I want to start working on a sports analytics project, advice from a SWE at any of the companies would help me improve in producing clean code, focusing on data engineering (API calls, scrapers) not just modeling, and making my work visible and accessible. "
-{
-    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 1.0,
     "backend_development": 1.0,
-    "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 0.0,
-    "data_science_and_analytics": 1.0,
-    "databases_and_data_management": 1.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "education_and_teaching": 0.0,
-    "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
+    "full_stack_development": 1.0,
     "mobile_development": 0.0,
-    "quantum_computing": 0.0,
-    "research_and_academia": 0.0,
-    "systems_programming": 0.0,
     "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "N/A"
-}
-Rating: "Gain more insight into the field and learn what skills/experiences stand out the most. Also learn what recruiters and other engineers want to see on resumes and for their interns."
-{
-    "computer_hardware_and_architecture": 0.0,
-    "embedded_systems_and_iot": 0.0,
-    "systems_programming": 0.0,
-    "computational_biology": 0.0,
-    "quantum_computing": 0.0,
-    "cybersecurity": 0.0,
-    "databases_and_data_management": 0.0,
-    "full_stack_web_development": 0.0,
-    "frontend_development": 0.0,
-    "ui_ux_design_and_human_computer_interaction": 0.0,
-    "backend_development": 0.0,
-    "mobile_development": 0.0,
+    "fintech": 1.0,
     "data_science_and_analytics": 0.0,
-    "artificial_intelligence_and_machine_learning": 0.0,
-    "game_development": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "research_and_academia": 0.0,
-    "education_and_teaching": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "employer": "N/A"
+    "companies": [
+        "Google",
+        "Meta",
+        "Amazon",
+        "Nvidia",
+        "Waymo",
+        "OpenAI",
+        "Anthropic",
+        "Sofi",
+        "PayPal",
+        "JaneStreet",
+        "HRT"
+    ]
 }
-Rating: "As an international student, I feel lost navigating the huge job market in the US. So, I think this program would aid me significantly in my career and guide me to what I'd have to do. Preferably, major tech companies:\n- Apple\n- Microsoft\n- Google\n- Meta\n- NVIDIA\n- Tesla\n- Pinterest\n- Spotify\n- Roblox\n- Amazon"
+Rating: {
+    "input": {
+        "interests": "Mobile app development, UX-aware engineering, consumer products.",
+        "disinterests": "Backend infrastructure work.",
+        "ideal_mentor": "A mobile engineer at Apple or a well-known consumer startup. They should be opinionated about clean code, usability, and building polished user-facing features."
+    },
+    "expected_pos": [
+        "mobile_development",
+        "ui_ux_design_and_human_computer_interaction"
+    ],
+    "expected_neg": [
+        "backend_development"
+    ],
+    "expected_companies": [
+        "Apple"
+    ]
+}
 {
-    "artificial_intelligence_and_machine_learning": 0.0,
-    "backend_development": 0.0,
-    "computational_biology": 0.0,
-    "computer_hardware_and_architecture": 0.0,
-    "cryptocurrency_and_blockchain": 0.0,
-    "cybersecurity": 0.0,
-    "data_science_and_analytics": 0.0,
-    "databases_and_data_management": 0.0,
-    "devops_and_cloud_infrastructure": 0.0,
-    "education_and_teaching": 0.0,
     "embedded_systems_and_iot": 0.0,
-    "entrepreneurship_and_startups": 0.0,
-    "frontend_development": 0.0,
-    "full_stack_web_development": 0.0,
-    "game_development": 0.0,
-    "mobile_development": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
     "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
     "research_and_academia": 0.0,
-    "systems_programming": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": -1.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 1.0,
+    "ui_ux_design_and_human_computer_interaction": 1.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Apple"
+    ]
+}
+Rating: {
+    "input": {
+        "interests": "Backend systems, distributed systems, databases, performance optimization, infrastructure.",
+        "disinterests": "Front-end heavy roles, UI/UX design.",
+        "ideal_mentor": "Someone senior in distributed systems at a large-scale company like Google or Meta. Ideally they\u2019ve worked on systems that serve millions of users and can explain tradeoffs clearly. A strong CS fundamentals background is a must."
+    },
+    "expected_pos": [
+        "backend_development"
+    ],
+    "expected_neg": [
+        "frontend_development",
+        "ui_ux_design_and_human_computer_interaction"
+    ],
+    "expected_companies": [
+        "Google",
+        "Meta"
+    ]
+}
+{
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.5,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": -0.7,
+    "backend_development": 0.9,
+    "full_stack_development": 0.3,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": -0.7,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Google",
+        "Meta"
+    ]
+}
+Rating: {
+    "input": {
+        "interests": "AI/ML, DevOps, Systems Engineering, Network Engineering, Biotech, Firmware, Hardware",
+        "disinterests": "Crypto",
+        "ideal_mentor": "They would work at any company, whether Big Tech or a startup. They would be knowledgeable in many fields but hopefully at least full-stack. I don't care much about their background, just whether they are able to assist and connect with me."
+    },
+    "expected_pos": [
+        "artificial_intelligence_and_machine_learning",
+        "systems_and_hardware_programming",
+        "computational_biology"
+    ],
+    "expected_neg": [
+        "fintech"
+    ],
+    "expected_companies": []
+}
+{
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 1.0,
+    "computational_biology": 1.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
     "ui_ux_design_and_human_computer_interaction": 0.0,
-    "employer": "Apple, Microsoft, Google, Meta, NVIDIA, Tesla, Pinterest, Spotify, Roblox, Amazon"
+    "fintech": -1.0,
+    "data_science_and_analytics": 0.0,
+    "companies": []
 }
 
 === COMPUTING BEST MATCHES ===
 
 Best match for student:
-"- I'm interested in learning more about the different career opportunities that I can pursue studying applied mathematics\n- Advice from a mentor would help me gain an understanding of the field and the different paths I can take"
+{
+    "input": {
+        "interests": "AI/ML, data engineering, applied statistics, recommender systems.",
+        "disinterests": "Low-level systems programming, hardware.",
+        "ideal_mentor": "An applied ML engineer at a consumer tech company like Netflix or Spotify. They should be strong at turning messy data into useful models and be honest about what ML can\u2019t solve."
+    },
+    "expected_companies": [
+        "Netflix",
+        "Spotify"
+    ],
+    "expected_pos": [
+        "artificial_intelligence_and_machine_learning"
+    ],
+    "expected_neg": [
+        "systems_and_hardware_programming"
+    ]
+}
 is:
 {
-    "company": "AWS",
-    "role": "software engineer",
-    "interests": "",
     "avoid_interests": "N/A",
-    "bio": "I am a UCLA alum working at AWS for the networking org, and I live in seattle. I\u201a\u00c4\u00f4m interested in keyboards, home labs, biking, and anything tech. "
+    "bio": "I\u201a\u00c4\u00f4m a UCLA alum working as a software engineer at a Google spinoff called Chorus who is also studying ML in grad school.",
+    "company": "Chorus",
+    "interests": "Interest in software",
+    "role": "Backend Software Engineer"
 }
 Best match for student:
-"- Interested in AI for healthcare (from research experience) and AI applied to cybersecurity (from AWS internship).\n- Would love mentorship from a Google SWE to explore how large companies approach cybersecurity and AI to help me refine my long-term career direction.\n- Especially interested in Google\u201a\u00c4\u00f4s company culture and day-to-day work style."
+{
+    "expected_companies": [
+        "Cloudflare"
+    ],
+    "expected_neg": [
+        "game_development"
+    ],
+    "expected_pos": [
+        "cybersecurity",
+        "systems_and_hardware_programming"
+    ],
+    "input": {
+        "interests": "Security engineering, privacy, operating systems, networking.",
+        "ideal_mentor": "A security engineer at a company like Cloudflare or a major cloud provider. Ideally someone with experience in both defensive security and systems-level programming.",
+        "disinterests": "Game development."
+    }
+}
 is:
 {
-    "company": "Microsoft",
-    "role": "Security Software Engineer II",
-    "interests": "woman / non-binary and/or queer (lgbtqia+) person preferred",
+    "interests": "Prefer students interested in embedded software but this is not a hard requirement.",
+    "bio": "I'm a UCLA alum who previously worked as a Flight Software Engineer at SpaceX and currently works as a consultant at Varda Space Industries, and Relativity; excited to provide guidance on embedded software development, and the Aerospace & Defense industry.",
+    "avoid_interests": "Would like to avoid students solely interested in AI as that's not where my expertise lies.",
+    "role": "Software Consultant",
+    "company": "Self-employed (currently on contract with Varda and Relativity)"
+}
+Best match for student:
+{
+    "expected_neg": [],
+    "input": {
+        "ideal_mentor": "I\u2019m looking for mentorship on navigating the path to big tech roles, including technical interview preparation and long term career positioning. I\u2019d also value guidance on planning coursework strategically and weighing the tradeoffs between industry experience and pursuing graduate school.",
+        "disinterests": "N/A",
+        "interests": "Backend and infrastructure engineering, with a focus on scalable systems, APIs, and data pipelines. Interested in developer platforms, reliability, and performance critical services. Enjoy building tools that support large numbers of users and enable other engineers to move faster."
+    },
+    "expected_pos": [
+        "backend_development"
+    ],
+    "expected_companies": []
+}
+is:
+{
+    "avoid_interests": "n.a",
+    "company": "intuit",
+    "role": "Sr. Software Engineer",
+    "bio": "I'm a software engineer at intuit, though i've worked at 10+ companies, startups and had higher level roles, have worked web/backend/android mobile and am happy to chat about anything",
+    "interests": "CS major?"
+}
+Best match for student:
+{
+    "input": {
+        "disinterests": "Web development.",
+        "interests": "Game engines, graphics programming, C++, real-time systems.",
+        "ideal_mentor": "An engineer working on game engines or graphics at a studio or company like NVIDIA. Strong math and low-level optimization background preferred."
+    },
+    "expected_pos": [
+        "game_development"
+    ],
+    "expected_neg": [
+        "full_stack_development"
+    ],
+    "expected_companies": [
+        "NVIDIA"
+    ]
+}
+is:
+{
+    "interests": "No preference",
+    "role": "Software engineer (distributed systems and query engines)",
+    "avoid_interests": "People obsessed with AI",
+    "company": "\ufeffDatadog",
+    "bio": "I am a UCLA alumn working as a Software Engineer at Datadog. I work on distributed query engines and execution. I am excited to help students learn more about the field."
+}
+Best match for student:
+{
+    "expected_pos": [
+        "mobile_development",
+        "game_development"
+    ],
+    "input": {
+        "disinterests": "Operating systems, compilers, anything to do with hardware/memory",
+        "interests": "Mobile/iOS development, game development",
+        "ideal_mentor": "Someone from a game development company like Blizzard, etc., expert in developing games and increasing performance"
+    },
+    "expected_neg": [
+        "systems_and_hardware_programming"
+    ],
+    "expected_companies": [
+        "Blizzard"
+    ]
+}
+is:
+{
+    "role": "Software engineer ",
+    "company": "Rubrik",
+    "interests": "I would likely provide the most value to someone who wants to go into software engineering. Major doesn\u201a\u00c4\u00f4t matter too much. It\u201a\u00c4\u00f4s a bonus if they are good at holding conversations!",
+    "avoid_interests": "If you have a hyper focused interest like ai, crypto, hft, or something and that\u201a\u00c4\u00f4s mostly what you want to discuss, I would not be a great match. I do pretty domain agnostic software engineering.",
+    "bio": "Hey! I\u201a\u00c4\u00f4m a 2019 ucla alum working at Rubrik (startup to post ipo). "
+}
+Best match for student:
+{
+    "expected_pos": [
+        "full_stack_development"
+    ],
+    "expected_companies": [],
+    "input": {
+        "ideal_mentor": "A product-focused engineer at a fast-growing startup. Bonus points if they\u2019ve shipped multiple products end-to-end and can talk about balancing code quality with real deadlines.",
+        "disinterests": "Pure research roles.",
+        "interests": "Full-stack development, product engineering, developer tooling."
+    },
+    "expected_neg": [
+        "research_and_academia"
+    ]
+}
+is:
+{
+    "company": "Vanta",
+    "avoid_interests": "I probably won't be super helpful for mentees interested in doing AI/ML heavy roles. Most of my experience is as a full stack SWE using AI tools!",
+    "role": "Full stack software engineer",
+    "interests": "Woman in tech, interested in startups",
+    "bio": "I'm a UCLA alum currently working as a Software Engineer at Vanta, and previously co-founded a startup and worked at Tesla. I'm happy to help talk through big vs small companies, startups and entrepreneurship, frontend and backend development, and using AI tools as part of your workflows!"
+}
+Best match for student:
+{
+    "expected_neg": [
+        "cybersecurity",
+        "quantum_computing"
+    ],
+    "expected_pos": [
+        "frontend_development",
+        "backend_development",
+        "full_stack_development",
+        "artificial_intelligence_and_machine_learning",
+        "fintech"
+    ],
+    "input": {
+        "ideal_mentor": "My ideal mentor would work in Big Tech (Google, Meta, Amazon, Nvidia, etc), ML/AI companies like (Waymo, OpenAI, Anthropic), or work in FinTech like (Sofi, PayPal, JaneStreet, HRT, etc) as a software developer.",
+        "disinterests": "Cyber Security, Quantum Computing",
+        "interests": "Frontend, Backend, Python, Java, Web Development, Cloud Computing, System Design, AI Engineering, Machine Learning, C++"
+    },
+    "expected_companies": [
+        "Google",
+        "Meta",
+        "Amazon",
+        "Nvidia",
+        "Waymo",
+        "OpenAI",
+        "Anthropic",
+        "Sofi",
+        "PayPal",
+        "JaneStreet",
+        "HRT"
+    ]
+}
+is:
+{
     "avoid_interests": "N/A",
-    "bio": "I graduated from the CSE major in 2019 and work within AI Safety & Security at Microsoft! I interned 2x at Microsoft and have experience in offensive security engineering - I\u201a\u00c4\u00f4m happy to connect folks to my network and share more about cybersecurity and red teaming!"
-}
-Best match for student:
-"N/A"
-is:
-{
-    "company": "Abnormal AI",
-    "role": "Engineering Manager",
-    "interests": "Open to all.",
-    "avoid_interests": "No.",
-    "bio": "I'm an UCLA alum with 10+ years in tech. I'm currently at Abnormal AI working as an engineering leader. My expertise is in backend, data, ML and AI."
-}
-Best match for student:
-"- I want to learn more about some industry roles that fit me and how to prepare early as a freshman\n- I want to get advice on my resume, internships, and personal projects\n- I want to have professional friend to talk to\n- Dream companies would be Google, Amazon, Microsoft, Meta etc..."
-is:
-{
     "company": "ex Microsfot",
     "role": "",
     "interests": "Happy to help mentees looking to chat about being women or queer individuals in tech, but open to anyone in general! I can't speak directly to the transfer experience, so I don't think I'd be a great fit for someone looking for guidance in that particular path.",
-    "avoid_interests": "N/A",
     "bio": "I've worked on both Microsoft Word and a UCLA-run NASA mission; I like advocacy, AI (when practiced responsibly), and art."
 }
 Best match for student:
-"* I want to gain experience and knowledge from someone who has been working programming in low level languages and works with hardware\n* I want to understand the industry and gain fundamental experience to continue navigating my career forward\n* I am looking to meet people who work at Google, Meta, or Amazon"
+{
+    "input": {
+        "interests": "Mobile app development, UX-aware engineering, consumer products.",
+        "ideal_mentor": "A mobile engineer at Apple or a well-known consumer startup. They should be opinionated about clean code, usability, and building polished user-facing features.",
+        "disinterests": "Backend infrastructure work."
+    },
+    "expected_companies": [
+        "Apple"
+    ],
+    "expected_pos": [
+        "mobile_development",
+        "ui_ux_design_and_human_computer_interaction"
+    ],
+    "expected_neg": [
+        "backend_development"
+    ]
+}
 is:
 {
-    "company": "LinkedIn",
-    "role": "Software Engineer",
-    "interests": "CS-related major",
+    "bio": "I'm an UCLA alum with 10+ years in tech. I'm currently at Abnormal AI working as an engineering leader. My expertise is in backend, data, ML and AI.",
+    "interests": "Open to all.",
+    "role": "Engineering Manager",
+    "company": "Abnormal AI",
+    "avoid_interests": "No."
+}
+Best match for student:
+{
+    "expected_neg": [
+        "frontend_development",
+        "ui_ux_design_and_human_computer_interaction"
+    ],
+    "input": {
+        "ideal_mentor": "Someone senior in distributed systems at a large-scale company like Google or Meta. Ideally they\u2019ve worked on systems that serve millions of users and can explain tradeoffs clearly. A strong CS fundamentals background is a must.",
+        "interests": "Backend systems, distributed systems, databases, performance optimization, infrastructure.",
+        "disinterests": "Front-end heavy roles, UI/UX design."
+    },
+    "expected_pos": [
+        "backend_development"
+    ],
+    "expected_companies": [
+        "Google",
+        "Meta"
+    ]
+}
+is:
+{
+    "company": "Amazon",
     "avoid_interests": "N/A",
-    "bio": "Hello I\u201a\u00c4\u00f4m a new UCLA alum working as a data infra software engineer at LinkedIn, excited to help students with SWE recruiting and share my experience as a new grad engineer."
+    "interests": "",
+    "bio": "I'm a UCLA alum working out of seattle for amazon for a little over 3 years now, excited to talk to students about how to navigate post grad life/transitioning to corporate life.",
+    "role": "Software Engineer"
 }
 Best match for student:
-"I recently worked on a social media app using Google Firebase, so I would like to work with a Google SWE to learn more about the mechanics of such databases, backend development, and cybersecurity"
-is:
 {
-    "company": "intuit",
-    "role": "Sr. Software Engineer",
-    "interests": "CS major?",
-    "avoid_interests": "n.a",
-    "bio": "I'm a software engineer at intuit, though i've worked at 10+ companies, startups and had higher level roles, have worked web/backend/android mobile and am happy to chat about anything"
+    "input": {
+        "ideal_mentor": "They would work at any company, whether Big Tech or a startup. They would be knowledgeable in many fields but hopefully at least full-stack. I don't care much about their background, just whether they are able to assist and connect with me.",
+        "interests": "AI/ML, DevOps, Systems Engineering, Network Engineering, Biotech, Firmware, Hardware",
+        "disinterests": "Crypto"
+    },
+    "expected_neg": [
+        "fintech"
+    ],
+    "expected_companies": [],
+    "expected_pos": [
+        "artificial_intelligence_and_machine_learning",
+        "systems_and_hardware_programming",
+        "computational_biology"
+    ]
 }
-Best match for student:
-"I'm a Linguistics and CS major so advice from any AI related company would help me understand the specific areas of both CS and linguistics I should focus on to be best prepared for the AI/SWE industry."
 is:
 {
-    "company": "Figma",
-    "role": "Software Engineer",
     "interests": "N/A",
     "avoid_interests": "Na",
+    "company": "Figma",
+    "role": "Software Engineer",
     "bio": "Hello!! I\u201a\u00c4\u00f4m a ucla grad working at figma as a swe. Looking forward to chatting :)"
-}
-Best match for student:
-"I want to start working on a sports analytics project, advice from a SWE at any of the companies would help me improve in producing clean code, focusing on data engineering (API calls, scrapers) not just modeling, and making my work visible and accessible. "
-is:
-{
-    "company": "Veeva",
-    "role": "",
-    "interests": "N/A",
-    "avoid_interests": "N/A",
-    "bio": "I'm a software engineer at Veeva Systems, happy to talk about getting into industry or anything research!"
-}
-Best match for student:
-"Gain more insight into the field and learn what skills/experiences stand out the most. Also learn what recruiters and other engineers want to see on resumes and for their interns."
-is:
-{
-    "company": "Amazon",
-    "role": "Software Engineer",
-    "interests": "",
-    "avoid_interests": "N/A",
-    "bio": "I'm a UCLA alum working out of seattle for amazon for a little over 3 years now, excited to talk to students about how to navigate post grad life/transitioning to corporate life."
-}
-Best match for student:
-"As an international student, I feel lost navigating the huge job market in the US. So, I think this program would aid me significantly in my career and guide me to what I'd have to do. Preferably, major tech companies:\n- Apple\n- Microsoft\n- Google\n- Meta\n- NVIDIA\n- Tesla\n- Pinterest\n- Spotify\n- Roblox\n- Amazon"
-is:
-{
-    "company": "Amazon",
-    "role": "Software Engineer",
-    "interests": "transfer",
-    "avoid_interests": "N/A",
-    "bio": ""
 }
