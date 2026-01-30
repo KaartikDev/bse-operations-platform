@@ -19,15 +19,21 @@ FIELDS = [
     "companies",
 ]
 
-model = "openai/gpt-oss-20b"
+MODEL = "openai/gpt-oss-120b"
+
+FIELD_WEIGHT = 0.9  # weight of numeric field similarity
+COMPANY_WEIGHT = 0.1  # weight of company similarity (before cap)
+CLASH_PENALTY = 0.15  # penalty per field where student and mentor clash
+STRONG_MATCH_THRESHOLD = 0.6  # similarity >= this -> "strong"
+WEAK_MATCH_THRESHOLD = 0.3  # similarity < this -> "weak"; between -> "ok"
 
 EXPECTED_POS_THRESHOLD = 0.25  # positive interests should be at least 0.25
 EXPECTED_NEG_THRESHOLD = -0.25  # negative interests should be at most -0.25
 CONSISTENCY_RUNS = 3  # number of runs to test consistency
 CONSISTENCY_THRESHOLD = 0.75  # consistency should be at least 0.75
 
-FIELD_WEIGHT = 0.9  # weight of field similarity
-COMPANY_WEIGHT = 0.1  # weight of company similarity
+USE_CSV_STUDENTS = False
+N = 23
 
 STUDENT_TEST_CASES = [
     {
