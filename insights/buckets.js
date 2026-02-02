@@ -1,4 +1,4 @@
-BUCKETS = [
+export const BUCKETS = [
     "computer_hardware_and_architecture",
     "embedded_systems_and_iot",
     "systems_programming",
