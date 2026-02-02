@@ -5,7 +5,7 @@ import json
 import os
 import time
 
-GEMINI_API_KEY = "AIzaSyCmZPmrC1U-2DxFO_YgZ2iNZFUugs3iEDU"
+GEMINI_API_KEY = "API_KEY_HERE (OLD WAS DELETED/INACTIVATED FOR SECURITY)"
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 def get_system_instruction():
