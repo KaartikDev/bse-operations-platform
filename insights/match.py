@@ -144,9 +144,11 @@ if __name__ == "__main__":
         print(
             f"  Student: {json.dumps(student_info, indent=4) if isinstance(student_info, dict) else student_info!r}"
         )
-        print(f"  Student values: {json.dumps(student_vals, indent=4)}")
+        print(
+            f"  Student values: {json.dumps(dict(zip(FIELDS, student_vals)), indent=4)}"
+        )
         print(f"  Alum: {json.dumps(alum_info, indent=4)}")
-        print(f"  Alum values: {json.dumps(alum_vals, indent=4)}")
+        print(f"  Alum values: {json.dumps(dict(zip(FIELDS, alum_vals)), indent=4)}")
         print(
             f"  Why: aligned_fields={explanation['aligned_fields']}, clash_fields={explanation['clash_fields']}, common_companies={explanation['common_companies']}"
         )
