@@ -1,9 +1,9 @@
 id,verdict,reasoning
-SOME RANDOM STRING!!,GREEN,"Demonstrates highly specific and advanced technical interests (backend, infrastructure, scalable systems) and presents an exceptionally detailed, strategic, and proactive plan for mentorship, indicating clear complex goals for big tech."
-BSE-REE4W9TD,YELLOW,"Expresses enthusiasm for a wide range of tech fields and has practical goals for mentorship, but lacks a specific niche interest or a complex project outlined for development."
-BSE-RWA7KP9S,YELLOW,"Expresses clear interest in mobile/iOS and game development, with a specific mentor type in mind, but the stated meeting plan is generic."
-BSE-P9ZN6J8G,YELLOW,"Shows enthusiasm for a broad range of core software engineering fields and has common, practical goals like interview preparation, but lacks a specific niche project or advanced, detailed planning."
-I'm not sure,YELLOW,"Expresses a clear interest in hardware and circuits, but the needs and meeting plan are very vague and lack detailed engagement for mentorship."
-BSE-3452PE (this is fake),RED,"Demonstrates minimal effort with vague interests, 'everything' as needs, and 'nan' for a meeting plan, indicating an unserious application."
-BSE-M8XRVBD5,RED,"Despite a specific interest in AI and ML, the application provides 'nan' for needs, ideal mentor, and meeting plan, showing a significant lack of effort and seriousness."
-BSE-REE4W9T,RED,"The application is extremely vague across all sections, with generic interests, needs, mentor description, and a meeting plan that demonstrates no serious thought or engagement with the mentorship process."
+SOME RANDOM STRING!!,GREEN,"Demonstrates exceptional specificity in interests (backend, infrastructure, scalable systems, developer platforms) and a clear 'Builder' mentality ('Enjoy building tools'). The meeting plans are highly detailed, strategic, and proactive."
+BSE-REE4W9TD,YELLOW,"Shows genuine interest and provides thoughtful answers regarding mentorship goals, covering various technical areas, but lacks evidence of specific projects or deep niche engagement."
+BSE-RWA7KP9S,YELLOW,"Expresses genuine interest in specific domains like mobile/iOS and game development and has clear, though generic, mentorship goals and meeting plans."
+BSE-P9ZN6J8G,YELLOW,"Enthusiastic and articulates standard career goals and mentorship needs, but interests are very broad without specific focus or project examples."
+I'm not sure,YELLOW,Expresses interest in a specific niche (hardware and circuits) but provides very generic mentorship needs and meeting plans.
+BSE-REE4W9T,YELLOW,"Writes full sentences and expresses generic interest in software engineering, but provides extremely broad and unspecific details for mentorship needs, ideal mentor, and particularly unhelpful meeting plans."
+BSE-3452PE,RED,"Provides vague and minimal answers ('something along the lines,' 'everything') and uses 'nan' for meeting plans, indicating a severe lack of effort."
+BSE-M8XRVBD5,RED,"Provides only a generic interest and completely neglects the mentorship needs, ideal mentor, and meeting plans sections with 'nan,' demonstrating a severe lack of effort."
