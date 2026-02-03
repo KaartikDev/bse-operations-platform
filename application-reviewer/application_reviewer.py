@@ -8,7 +8,7 @@ import time
 
 
 # 1. API KEY
-GEMINI_API_KEY = "AIzaSyB4CvYH8WylXdguaUpQXxpUBqzgYm3fH74"
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"
 
 # 2. FILE SETTINGS
 INPUT_CSV_PATH = '/Users/ashwinjoshi/Projects/bse-operations-platform/application-reviewer/Mentee Application Winter 2026 (testing) (Responses) - Form Responses 1.csv'
