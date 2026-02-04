@@ -1,0 +1,1291 @@
+
+=== RATING 23 STUDENTS (from CSV) ===
+
+
+=== RATING 23 ALUMNI (from CSV) ===
+
+
+=== OPTIMAL ASSIGNMENT (Hungarian) ===
+
+[STRONG] Student #0 <-> Alum #6 (similarity=0.670820393249937)
+  Student: 'Interested in mentors from Robinhood and Meta to help me explore AI and blockchain.\nCurrently building a GPT-2 clone and built RAG web app using LangChain.\nSeeking guidance on AI projects, deploying models, and applying AI in finance and decentralized systems'
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.5,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 1.0,
+    "data_science_and_analytics": 0.5,
+    "companies": [
+        "Robinhood",
+        "Facebook"
+    ]
+}
+  Alum: {
+    "company": "Amazon",
+    "role": "Software Engineer",
+    "interests": "transfer",
+    "disinterests": "N/A",
+    "bio": ""
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.5,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.5,
+    "frontend_development": 0.5,
+    "backend_development": 1.0,
+    "full_stack_development": 1.0,
+    "mobile_development": 0.5,
+    "ui_ux_design_and_human_computer_interaction": 0.5,
+    "fintech": 0.5,
+    "data_science_and_analytics": 0.5,
+    "companies": [
+        "Amazon"
+    ]
+}
+  Why: aligned_fields=[('artificial_intelligence_and_machine_learning', 1.0, 0.5), ('frontend_development', 0.5, 0.5), ('backend_development', 0.5, 1.0), ('full_stack_development', 0.5, 1.0), ('fintech', 1.0, 0.5), ('data_science_and_analytics', 0.5, 0.5)], clash_fields=[], common_companies=[]
+
+[STRONG] Student #1 <-> Alum #1 (similarity=0.680336051416609)
+  Student: "I'm working on a AI Engineering Ingredient Analyzer Web app, advice from a Google SWE would help me improve the functionality and delivery of the app."
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.5,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.5,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Google"
+    ]
+}
+  Alum: {
+    "company": "ex Microsfot",
+    "role": "",
+    "interests": "Happy to help mentees looking to chat about being women or queer individuals in tech, but open to anyone in general! I can't speak directly to the transfer experience, so I don't think I'd be a great fit for someone looking for guidance in that particular path.",
+    "disinterests": "N/A",
+    "bio": "I've worked on both Microsoft Word and a UCLA-run NASA mission; I like advocacy, AI (when practiced responsibly), and art."
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.5,
+    "systems_and_hardware_programming": 0.5,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.5,
+    "cybersecurity": 0.5,
+    "game_development": 0.5,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.5,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.5,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.5,
+    "companies": [
+        "Microsoft"
+    ]
+}
+  Why: aligned_fields=[('artificial_intelligence_and_machine_learning', 1.0, 1.0), ('frontend_development', 0.5, 0.5), ('backend_development', 0.5, 0.5), ('full_stack_development', 0.5, 0.5), ('ui_ux_design_and_human_computer_interaction', 0.5, 0.5)], clash_fields=[], common_companies=[]
+
+[STRONG] Student #2 <-> Alum #11 (similarity=0.7675225788801975)
+  Student: 'I recently worked on a social media app using Google Firebase, so I would like to work with a Google SWE to learn more about the mechanics of such databases, backend development, and cybersecurity'
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 1.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 1.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Google"
+    ]
+}
+  Alum: {
+    "company": "Microsoft",
+    "role": "Software Engineer II",
+    "interests": "N/A",
+    "disinterests": "N/A",
+    "bio": "I am a UCLA alum, class of 2019, working as a Software Engineer at Microsoft, as part of its Security division. I architect and build big-data and distributed systems for enterprise security. I've taught high school computer science for five years, been an intern mentor, and have mentored college students over the years. I'm excited to connect with UCLA students interested in learning more about backend and how data (and AI) play a role into modern software engineering."
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 1.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.5,
+    "artificial_intelligence_and_machine_learning": 0.5,
+    "frontend_development": 0.0,
+    "backend_development": 1.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.5,
+    "companies": [
+        "Microsoft"
+    ]
+}
+  Why: aligned_fields=[('cybersecurity', 1.0, 1.0), ('backend_development', 1.0, 1.0)], clash_fields=[], common_companies=[]
+
+[WEAK] Student #3 <-> Alum #7 (similarity=0.1)
+  Student: '- I want to learn more about some industry roles that fit me and how to prepare early as a freshman\n- I want to get advice on my resume, internships, and personal projects\n- I want to have professional friend to talk to\n- Dream companies would be Google, Amazon, Microsoft, Meta etc...'
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Facebook"
+    ]
+}
+  Alum: {
+    "company": "AWS",
+    "role": "software engineer",
+    "interests": "",
+    "disinterests": "N/A",
+    "bio": "I am a UCLA alum working at AWS for the networking org, and I live in seattle. I\u201a\u00c4\u00f4m interested in keyboards, home labs, biking, and anything tech. "
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Amazon"
+    ]
+}
+  Why: aligned_fields=[], clash_fields=[], common_companies=['amazon']
+
+[STRONG] Student #4 <-> Alum #10 (similarity=0.7606388292556651)
+  Student: "I'm developing an app that uses RAG to recommend election candidates by analyzing news sources and asking users personalized questions. I‚Äôd value mentorship from engineers at Google, Meta, or Amazon on improving its reliability and scalability, and on making the most of college to prepare for careers at these companies."
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.5,
+    "backend_development": 1.0,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 1.0,
+    "companies": [
+        "Google",
+        "Facebook",
+        "Amazon"
+    ]
+}
+  Alum: {
+    "company": "Chorus",
+    "role": "Backend Software Engineer",
+    "interests": "Interest in software",
+    "disinterests": "N/A",
+    "bio": "I\u201a\u00c4\u00f4m a UCLA alum working as a software engineer at a Google spinoff called Chorus who is also studying ML in grad school."
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.5,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.0,
+    "backend_development": 1.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.5,
+    "companies": [
+        "Chorus"
+    ]
+}
+  Why: aligned_fields=[('artificial_intelligence_and_machine_learning', 1.0, 1.0), ('backend_development', 1.0, 1.0), ('data_science_and_analytics', 1.0, 0.5)], clash_fields=[], common_companies=[]
+
+[STRONG] Student #5 <-> Alum #0 (similarity=0.6928203230275509)
+  Student: "- Interested in learning about the intersection of Software Engineering, AI, and Data Science since I'm majoring in CS and minoring in Statistics and Data Science\n- Interested in any company that is about being creative and pushing boundaries\n"
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 1.0,
+    "companies": []
+}
+  Alum: {
+    "company": "Abnormal AI",
+    "role": "Engineering Manager",
+    "interests": "Open to all.",
+    "disinterests": "No.",
+    "bio": "I'm an UCLA alum with 10+ years in tech. I'm currently at Abnormal AI working as an engineering leader. My expertise is in backend, data, ML and AI."
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.0,
+    "backend_development": 1.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 1.0,
+    "companies": [
+        "Abnormal AI"
+    ]
+}
+  Why: aligned_fields=[('artificial_intelligence_and_machine_learning', 1.0, 1.0), ('data_science_and_analytics', 1.0, 1.0)], clash_fields=[], common_companies=[]
+
+[STRONG] Student #6 <-> Alum #13 (similarity=0.780336051416609)
+  Student: "I'm making medium sized ML projects and want to get better with algorithmic thinking and model optimization.  Interested in most companies in related fields, eg. google, deepmind, C3AI, openai, nvidia, meta, etc. "
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Google",
+        "DeepMind",
+        "C3AI",
+        "OpenAI",
+        "NVIDIA",
+        "Facebook"
+    ]
+}
+  Alum: {
+    "company": "OpenAI",
+    "role": "Member of Technical Staff ",
+    "interests": "woman in tech would be nice! but i am flexible, whatever works! ",
+    "disinterests": "N/A",
+    "bio": "i\u201a\u00c4\u00f4m a ucla alum working at openai as a member of technical staff. prior to this, i was a software engineer and then engineering manager at rockset, the database startup. "
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.5,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.5,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.5,
+    "companies": [
+        "OpenAI",
+        "Rockset"
+    ]
+}
+  Why: aligned_fields=[('artificial_intelligence_and_machine_learning', 1.0, 1.0)], clash_fields=[], common_companies=['openai']
+
+[OK] Student #7 <-> Alum #9 (similarity=0.5196152422706631)
+  Student: 'Originally from a small town and state; mentorship would empower me to dive into LA and California‚Äôs tech scene\n\nHighly motivated and driven to learn; want to receive insightful answers to insightful questions\n\nSWEs offer exclusive, unique perspective on recruiting\n\nNone in particular; big tech, quant, consulting, startups, etc.'
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.5,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.5,
+    "data_science_and_analytics": 0.5,
+    "companies": []
+}
+  Alum: {
+    "company": "intuit",
+    "role": "Sr. Software Engineer",
+    "interests": "CS major?",
+    "disinterests": "n.a",
+    "bio": "I'm a software engineer at intuit, though i've worked at 10+ companies, startups and had higher level roles, have worked web/backend/android mobile and am happy to chat about anything"
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.5,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.5,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.5,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 1.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Intuit"
+    ]
+}
+  Why: aligned_fields=[('entrepreneurship_and_startups', 0.5, 0.5), ('fintech', 0.5, 1.0)], clash_fields=[], common_companies=[]
+
+[STRONG] Student #8 <-> Alum #22 (similarity=0.8049844718999243)
+  Student: "- I'm interested in the feasibility of a career in frontend.\n- Currently in a project called Clubhouse doing frontend dev + design, advice on features to make this website successful would be nice. \n- Interests: design, linguistics, writing, walking, cats, stretching"
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 1.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 1.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": []
+}
+  Alum: {
+    "company": "Figma",
+    "role": "Software Engineer",
+    "interests": "N/A",
+    "disinterests": "Na",
+    "bio": "Hello!! I\u201a\u00c4\u00f4m a ucla grad working at figma as a swe. Looking forward to chatting :)"
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 1.0,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 1.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Figma"
+    ]
+}
+  Why: aligned_fields=[('frontend_development', 1.0, 1.0), ('ui_ux_design_and_human_computer_interaction', 1.0, 1.0)], clash_fields=[], common_companies=[]
+
+[WEAK] Student #9 <-> Alum #16 (similarity=0.0)
+  Student: 'With no prior experience in SWE, I‚Äôm still exploring without a specific long-term goal in mind, so I‚Äôd like to build foundational skills and learn about how software can interact with other industries. I‚Äôm especially interested in Google and Apple, since they span from core engineering to creative tools.'
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Google",
+        "Apple"
+    ]
+}
+  Alum: {
+    "company": "Zuub, Inc.",
+    "role": "Vice President of Engineering",
+    "interests": "Everyone is welcomed!",
+    "disinterests": "Probably less to contribute for those looking towards research",
+    "bio": "Software Engineering veteran looking to help the next generation"
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": -1.0,
+    "education_and_teaching": 1.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.5,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Zuub"
+    ]
+}
+  Why: aligned_fields=[], clash_fields=[], common_companies=[]
+
+[STRONG] Student #10 <-> Alum #21 (similarity=0.6697875667817257)
+  Student: '- I am Working on a simple ml ai project, advice from a Meta/Google/Amazon/Robinhood swe would be helpful. my interest mostly focuses on ai and\n I would like to receive guidance on academic advice, career planning and also professional development.'
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.5,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Facebook",
+        "Google",
+        "Amazon",
+        "Robinhood"
+    ]
+}
+  Alum: {
+    "company": "Pinterest, UC Berkeley",
+    "role": "Machine learning engineer (Pinterest Visual Search), lecturer (UC Berkeley, Data Science Undergraduate Studies)",
+    "interests": "Preferably someone interested in some of the following: software engineering, machine learning / artificial intelligence, computer vision, recommendation systems, research, grad school, industry vs academia, teaching.",
+    "disinterests": "N/A",
+    "bio": "Hi! I'm a UCLA alum (Master's in Computer Science, 2016, with focus in AI/ML and computer vision) currently working as a machine learning engineer at Pinterest's Visual Search team. I also teach part-time at UC Berkeley (Data Science Undergraduate Studies program), where I have taught an Intro to Python and an Intro to Deep Learning course. I'm looking forward to help students that are curious about any of the following: AI/ML/computer-vision/recommendation-systems, education, industry vs academia/grad-school, and/or what it's like working in industry! In my free time, I enjoy playing music (piano, bass, guitar, singing), video games, and watching movies (I love Pixar movies, and animation/film in general!)."
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 1.0,
+    "education_and_teaching": 1.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.5,
+    "companies": [
+        "Pinterest",
+        "UC Berkeley"
+    ]
+}
+  Why: aligned_fields=[('research_and_academia', 0.5, 1.0), ('artificial_intelligence_and_machine_learning', 1.0, 1.0)], clash_fields=[], common_companies=[]
+
+[WEAK] Student #11 <-> Alum #4 (similarity=0.1)
+  Student: "- I'd love to be a part of the mentorship program because one of the resources that would accelerate my learning\n- Meta, Google, but flexible to any"
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Facebook",
+        "Google"
+    ]
+}
+  Alum: {
+    "company": "Founding",
+    "role": "Founding",
+    "interests": "N/A",
+    "disinterests": "n/a",
+    "bio": "I've worked in the civic space (civic integrity @ FB, founding eng & product @ Series A civic tech), in VC (Neo), and am now exploring founding. I can chat about transitioning between engineering and product. "
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 1.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.5,
+    "backend_development": 0.5,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.5,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Facebook",
+        "Neo"
+    ]
+}
+  Why: aligned_fields=[], clash_fields=[], common_companies=['facebook']
+
+[STRONG] Student #12 <-> Alum #3 (similarity=0.8485281374238569)
+  Student: "I'm interested in embedded programming and FPGA/ASIC design, and there aren't a lot of resources to prepare for these roles compared to things like web development. I am currently building my own CPU in Verilog, and I am interested in companies like NVIDIA, Apple, AMD, Qualcomm or defense contractors. "
+  Student values: {
+    "embedded_systems_and_iot": 1.0,
+    "systems_and_hardware_programming": 1.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "NVIDIA",
+        "Apple",
+        "AMD",
+        "Qualcomm",
+        "Defense Contractors"
+    ]
+}
+  Alum: {
+    "company": "Self-employed (currently on contract with Varda and Relativity)",
+    "role": "Software Consultant",
+    "interests": "Prefer students interested in embedded software but this is not a hard requirement.",
+    "disinterests": "Would like to avoid students solely interested in AI as that's not where my expertise lies.",
+    "bio": "I'm a UCLA alum who previously worked as a Flight Software Engineer at SpaceX and currently works as a consultant at Varda Space Industries, and Relativity; excited to provide guidance on embedded software development, and the Aerospace & Defense industry."
+}
+  Alum values: {
+    "embedded_systems_and_iot": 1.0,
+    "systems_and_hardware_programming": 1.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": -0.5,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Varda",
+        "Relativity",
+        "SpaceX"
+    ]
+}
+  Why: aligned_fields=[('embedded_systems_and_iot', 1.0, 1.0), ('systems_and_hardware_programming', 1.0, 1.0)], clash_fields=[], common_companies=[]
+
+[WEAK] Student #13 <-> Alum #19 (similarity=0.0)
+  Student: 'I want to join the mentorship program to get guidance on software engineering, landing internships, and navigating the tech industry. Having a mentor with real-world experience would help me learn practical insights and grow into a professional like them.\nInterested companies: Arista Networks, FAANG, NVIDIA, working for startups'
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Arista Networks",
+        "FAANG",
+        "NVIDIA",
+        "Startups"
+    ]
+}
+  Alum: {
+    "company": "Veeva",
+    "role": "",
+    "interests": "N/A",
+    "disinterests": "N/A",
+    "bio": "I'm a software engineer at Veeva Systems, happy to talk about getting into industry or anything research!"
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 1.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Veeva"
+    ]
+}
+  Why: aligned_fields=[], clash_fields=[], common_companies=[]
+
+[STRONG] Student #14 <-> Alum #18 (similarity=0.606779876216918)
+  Student: 'I want to go into startup culture, and working with FAANG SWE workers would help me understand how to prioritize certain aspects of building applications and how companies are organized. I also want to get into '
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 1.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "FAANG"
+    ]
+}
+  Alum: {
+    "company": "Vanta",
+    "role": "Software Engineer",
+    "interests": "- Computer science or switching into Computer science\n- Ideally interested in startups",
+    "disinterests": "N/A",
+    "bio": "I'm a UCLA alum working as a SWE at Vanta-- happy to help with anything from technical development to career applications, whether at big tech, startups, or something else!"
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 1.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 1.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.5,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Vanta"
+    ]
+}
+  Why: aligned_fields=[('entrepreneurship_and_startups', 1.0, 1.0), ('full_stack_development', 0.5, 0.5)], clash_fields=[], common_companies=[]
+
+[OK] Student #15 <-> Alum #20 (similarity=0.4772970773009195)
+  Student: "I'm interested in compilers or data science but I have no experience dealing with large scale codebases. Advice from a compiler engineer or data scientist would help me navigate how to start building personal projects and what is relevant towards making an impact on the industry!"
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 1.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 1.0,
+    "companies": []
+}
+  Alum: {
+    "company": "\ufeffDatadog",
+    "role": "Software engineer (distributed systems and query engines)",
+    "interests": "No preference",
+    "disinterests": "People obsessed with AI",
+    "bio": "I am a UCLA alumn working as a Software Engineer at Datadog. I work on distributed query engines and execution. I am excited to help students learn more about the field."
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 1.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.5,
+    "education_and_teaching": 0.5,
+    "artificial_intelligence_and_machine_learning": -1.0,
+    "frontend_development": 0.0,
+    "backend_development": 1.0,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.5,
+    "companies": [
+        "Datadog"
+    ]
+}
+  Why: aligned_fields=[('systems_and_hardware_programming', 1.0, 1.0), ('data_science_and_analytics', 1.0, 0.5)], clash_fields=[], common_companies=[]
+
+[WEAK] Student #16 <-> Alum #12 (similarity=0.0)
+  Student: '-want to learn what coding in real world is like\n-gain advice from industry professionals\n-listen to their experience\n-Interested in bigger companies\n-want to know what it takes to work at the best companies in the world\n-get a good insider view of companies'
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": []
+}
+  Alum: {
+    "company": "Amazon",
+    "role": "Software Engineer",
+    "interests": "",
+    "disinterests": "N/A",
+    "bio": "I'm a UCLA alum working out of seattle for amazon for a little over 3 years now, excited to talk to students about how to navigate post grad life/transitioning to corporate life."
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Amazon"
+    ]
+}
+  Why: aligned_fields=[], clash_fields=[], common_companies=[]
+
+[OK] Student #17 <-> Alum #17 (similarity=0.3286335345030997)
+  Student: 'Machine Learning\nComputer vision\nComputer networking\nEngineering and product design\nGoogle, meta, amazon\nI wish to specialize in the topics above.\n'
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.5,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.5,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Google",
+        "Facebook",
+        "Amazon"
+    ]
+}
+  Alum: {
+    "company": "Microsoft",
+    "role": "Security Software Engineer II",
+    "interests": "woman / non-binary and/or queer (lgbtqia+) person preferred",
+    "disinterests": "N/A",
+    "bio": "I graduated from the CSE major in 2019 and work within AI Safety & Security at Microsoft! I interned 2x at Microsoft and have experience in offensive security engineering - I\u201a\u00c4\u00f4m happy to connect folks to my network and share more about cybersecurity and red teaming!"
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 1.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.5,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Microsoft"
+    ]
+}
+  Why: aligned_fields=[('artificial_intelligence_and_machine_learning', 1.0, 0.5)], clash_fields=[], common_companies=[]
+
+[STRONG] Student #18 <-> Alum #15 (similarity=0.6971370023173351)
+  Student: '- I would like help with career development.\n- Reviewing my resume.\n- tips on the best way to look and apply for new grad roles in Software Engineering/development.\n- preparing for interviews.'
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.5,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": []
+}
+  Alum: {
+    "company": "Vanta",
+    "role": "Full stack software engineer",
+    "interests": "Woman in tech, interested in startups",
+    "disinterests": "I probably won't be super helpful for mentees interested in doing AI/ML heavy roles. Most of my experience is as a full stack SWE using AI tools!",
+    "bio": "I'm a UCLA alum currently working as a Software Engineer at Vanta, and previously co-founded a startup and worked at Tesla. I'm happy to help talk through big vs small companies, startups and entrepreneurship, frontend and backend development, and using AI tools as part of your workflows!"
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 1.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": -1.0,
+    "frontend_development": 1.0,
+    "backend_development": 1.0,
+    "full_stack_development": 1.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Vanta"
+    ]
+}
+  Why: aligned_fields=[('frontend_development', 0.5, 1.0), ('backend_development', 0.5, 1.0), ('full_stack_development', 0.5, 1.0)], clash_fields=[], common_companies=[]
+
+[WEAK] Student #19 <-> Alum #14 (similarity=0.0)
+  Student: 'I want to break into project management but have a background in SWE which can be out to use. Advice from project managers in the larger tech companies would help me improve interviewing skills, gain more knowledge, and assist me with applications. '
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": []
+}
+  Alum: {
+    "company": "Rubrik",
+    "role": "Software engineer ",
+    "interests": "I would likely provide the most value to someone who wants to go into software engineering. Major doesn\u201a\u00c4\u00f4t matter too much. It\u201a\u00c4\u00f4s a bonus if they are good at holding conversations!",
+    "disinterests": "If you have a hyper focused interest like ai, crypto, hft, or something and that\u201a\u00c4\u00f4s mostly what you want to discuss, I would not be a great match. I do pretty domain agnostic software engineering.",
+    "bio": "Hey! I\u201a\u00c4\u00f4m a 2019 ucla alum working at Rubrik (startup to post ipo). "
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.5,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.5,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": -0.5,
+    "frontend_development": 0.0,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": -0.5,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Rubrik"
+    ]
+}
+  Why: aligned_fields=[], clash_fields=[], common_companies=[]
+
+[STRONG] Student #20 <-> Alum #2 (similarity=0.8485281374238569)
+  Student: '- Working on creating a movie recommendation app and also Interested in pursuing product development within tech, advice from Software engineers and their experiences would be really helpful (no company preferred)'
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 1.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.5,
+    "frontend_development": 0.5,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.5,
+    "companies": []
+}
+  Alum: {
+    "company": "Latent Health",
+    "role": "Software Engineer",
+    "interests": "CS",
+    "disinterests": "Na",
+    "bio": "After graduating UCLA CS, I started a YC/VC backed company and am now working at an early stage health tech startup "
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 1.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.5,
+    "frontend_development": 0.0,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.5,
+    "companies": [
+        "Latent Health"
+    ]
+}
+  Why: aligned_fields=[('entrepreneurship_and_startups', 1.0, 1.0), ('artificial_intelligence_and_machine_learning', 0.5, 0.5), ('backend_development', 0.5, 0.5), ('full_stack_development', 0.5, 0.5), ('data_science_and_analytics', 0.5, 0.5)], clash_fields=[], common_companies=[]
+
+[OK] Student #21 <-> Alum #8 (similarity=0.3598076211353316)
+  Student: "-I've developed projects in AI and embedded systems, and mentorship from Google, Meta, and Amazon SWE's would help me learn more about how these projects are applied in industry.\n-Guidance on scaling technical projects, internships, and building a strong portfolio would help me grow as a developer and future AI engineer."
+  Student values: {
+    "embedded_systems_and_iot": 1.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 1.0,
+    "frontend_development": 0.0,
+    "backend_development": 0.0,
+    "full_stack_development": 0.0,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Google",
+        "Facebook",
+        "Amazon"
+    ]
+}
+  Alum: {
+    "company": "Amazon (Kuiper)",
+    "role": "Software Development Engineer II",
+    "interests": "Computer Science, LGBTQ+",
+    "disinterests": "N/A",
+    "bio": "I'm a UCLA class of 2022 alum working as a software engineer at Amazon, and I'm excited to help students find their passion in engineering, and explore how software engineering principles apply to the workforce."
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.5,
+    "systems_and_hardware_programming": 0.5,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.5,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.5,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.0,
+    "companies": [
+        "Amazon"
+    ]
+}
+  Why: aligned_fields=[('embedded_systems_and_iot', 1.0, 0.5)], clash_fields=[], common_companies=['amazon']
+
+[OK] Student #22 <-> Alum #5 (similarity=0.5554920598635309)
+  Student: "- I'm current building website/app that will scan reciepts, extract the prices and amount spent, and then aggregate into a dashboard of spending. \n- From there I'm not sure what problem to solve with this data so a, mentor in swe or product adjacent could be helpful "
+  Student values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.0,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.5,
+    "backend_development": 0.5,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.5,
+    "fintech": 0.5,
+    "data_science_and_analytics": 0.5,
+    "companies": []
+}
+  Alum: {
+    "company": "LinkedIn",
+    "role": "Software Engineer",
+    "interests": "CS-related major",
+    "disinterests": "N/A",
+    "bio": "Hello I\u201a\u00c4\u00f4m a new UCLA alum working as a data infra software engineer at LinkedIn, excited to help students with SWE recruiting and share my experience as a new grad engineer."
+}
+  Alum values: {
+    "embedded_systems_and_iot": 0.0,
+    "systems_and_hardware_programming": 0.0,
+    "computational_biology": 0.0,
+    "quantum_computing": 0.0,
+    "cybersecurity": 0.0,
+    "game_development": 0.0,
+    "entrepreneurship_and_startups": 0.0,
+    "research_and_academia": 0.0,
+    "education_and_teaching": 0.5,
+    "artificial_intelligence_and_machine_learning": 0.0,
+    "frontend_development": 0.0,
+    "backend_development": 1.0,
+    "full_stack_development": 0.5,
+    "mobile_development": 0.0,
+    "ui_ux_design_and_human_computer_interaction": 0.0,
+    "fintech": 0.0,
+    "data_science_and_analytics": 0.5,
+    "companies": [
+        "LinkedIn"
+    ]
+}
+  Why: aligned_fields=[('backend_development', 0.5, 1.0), ('full_stack_development', 0.5, 0.5), ('data_science_and_analytics', 0.5, 0.5)], clash_fields=[], common_companies=[]
+
+
+=== SUMMARY ===
+  Tier counts: {'strong': 12, 'ok': 5, 'weak': 6}
