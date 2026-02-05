@@ -157,7 +157,6 @@ def runChecker(SPREADSHEET_ID: str, SHEET_ID: str, SHEET_NAME: str, TYPE: str):
     for index, entry in enumerate(normalizedEntries, start=2):
         entry_email = sheets.get_email(entry)  # column E
         print(entry_email)
-
         # Default state
         target_state = "NOT_A_GM"
 
