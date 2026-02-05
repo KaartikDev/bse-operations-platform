@@ -13,8 +13,9 @@ def main():
     # schedule.every().minute.do(run_mentee_checker)
 
     #Jane Street Checker
-    schedule.every().minute.do(runChecker("1bJcGFdZnSSlRCgARXxkFcMMMAl4t5T0tCStawPVFFrQ", "1917791920", "Form Responses 1", "Jane Street")
-)
+    # schedule.every().minute.do(runChecker("1bJcGFdZnSSlRCgARXxkFcMMMAl4t5T0tCStawPVFFrQ", "1917791920", "Form Responses 1", "Jane Street"))
+    schedule.every().minute.do(runChecker("1hMJk9mpSDcma9rFefAB4dTe1Ho_cttq0InDg7TC6b3I", "1640604549", "Form Responses 1", "the Fireside Chat with Senior Spotify Engineer"))
+
     while True:
         schedule.run_pending()
         time.sleep(1)

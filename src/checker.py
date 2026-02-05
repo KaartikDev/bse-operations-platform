@@ -184,7 +184,7 @@ def runChecker(SPREADSHEET_ID: str, SHEET_ID: str, SHEET_NAME: str, TYPE: str):
         if target_state != prev_state:
             print(f"Updating Row {index}: {prev_state} -> {target_state}")
             # Send notification once per change (optional)
-            # gmail.send_event_email(gmail_service, entry_email, target_state, entry)
+            gmail.send_event_email(gmail_service, entry_email, target_state, entry, TYPE)           ###########
 
         # Prepare EntryStatuses updates: A=status, B..=full row
         all_update_requests.append({
@@ -213,4 +213,4 @@ def runChecker(SPREADSHEET_ID: str, SHEET_ID: str, SHEET_NAME: str, TYPE: str):
 
 if __name__ == "__main__":
     # runChecker("1myZZASczHp7fzHchePcb4cVuQHYxOow6YOXAPHcXPHY", "829339717", "Form Responses 1", "Mentee")
-    runChecker("1bJcGFdZnSSlRCgARXxkFcMMMAl4t5T0tCStawPVFFrQ", "1917791920", "Form Responses 1", "Jane Street")
+    runChecker("1bJcGFdZnSSlRCgARXxkFcMMMAl4t5T0tCStawPVFFrQ", "689981456", "Copy of Form Responses 1", "Jane Street x BSE Guts++")

@@ -85,7 +85,7 @@ def send_mentorship_notification(service, recipient, state, mentee_data):
     # Call existing gmail sending logic here
     send_email(service, recipient, subject, body)
 
-def send_event_email(service, recipient, state, mentee_data):
+def send_event_email(service, recipient, state, mentee_data, event_name):
     first_name = sheets.get_first_name(mentee_data).upper()
     last_name = sheets.get_last_name(mentee_data).upper()
 
@@ -98,7 +98,7 @@ def send_event_email(service, recipient, state, mentee_data):
             f"""
             Dear {first_name} {last_name},
 
-            Thank you for your interest. 
+            Thank you for your interest in {event_name}. 
             This is an automated message regarding your application.
             After our system reviewed your application, we could not verify your status as a General Member of BSE. 
             This could be due to various reasons:
@@ -107,7 +107,7 @@ def send_event_email(service, recipient, state, mentee_data):
             2. The email you provided in either your General Member form or event signup form don't match.
             3. The first and last names you provided in the General Member form don't match those in your Mentee Application form.
             
-            In order to be eligible for the Mentorship Program, all of the above must be resolved.
+            In order to be eligible to participate in this event, all of the above must be resolved.
             Your application has not been deleted, but will not be considered until the issue is resolved.
             You have the ability to edit your responses.
             Pleases check to ensure all of the information is correct and consistent.
