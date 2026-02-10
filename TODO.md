@@ -1,0 +1,4 @@
+- [ ] Update sheets functions (get_name, etc) to use the new standardized google sheets format. Update the mentee checker and checker.py files to use the stndardized format and the standardized sheet columns
+  - [ ] ultimatley, the mentee specific columns should mostly be replaced unless they are unique to the application
+- [ ] If needed, update the goolge forms to reflect the new google form standard. 
+- [ ] update new google sheet form for events to include BSE ID as a field, and link to the membership form. Update checker.py to also check for BSE ID
