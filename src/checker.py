@@ -7,18 +7,11 @@ from utils import gmail
 from utils import google_authentication
 from utils import logonScanner
 
-# form standard
-    # C, D, E = First name, last name, ucla email
-    # form must be editable after submission 
-    # each email should be able to submit only 1 form --> no duplicate entries 
-
-
-# workflow
+## --- workflow --- ##
 # human done
 # 1. person creates google form and links it to a spreadsheet range
 # 2. person inputs the spreadsheet ID and the sheetID into the function
-
-# program done in while loop
+## --- program done in while loop --- ##
 # 3. the program dynamically creates the ranges it'd need
 # 4. program creates a new tab called EntryStatuses if it doesn't already exist
 # 5. program checks if they're a member
@@ -26,10 +19,6 @@ from utils import logonScanner
 # 8. program sends emails as necessary
 # 9. in the new tab, it will put the status of the entry into the first column A and append the respective entry to the right unmodified
 # 10. loop again
-
-# create new sheet with entry status
-# put entry status as column and copy the rest of the entry to the right of it
-
 
 # ID and range of spreadsheet
 GM_SPREADSHEET_ID = "1ZQjmV6OVpHfB9hiJP9sLValh9cGUA2aOg3fpn6ELHj8"
@@ -39,7 +28,6 @@ GM_SHEET_NAME = "Members Jan 2026"
 # Notes:
 # Columns: default spreadsheet starts from A = index 0
 # Rows: default spreadsheet starts from 1 = index 0 (row 1 in the spreadsheet UI is the title row, first entry is row 2 which is index 1 for this program)
-
 
 def findlastcolnum(service, SPREADSHEET_ID, SHEET_NAME):
     """
@@ -126,22 +114,6 @@ def runChecker(SPREADSHEET_ID: str, SHEET_ID: str, SHEET_NAME: str, TYPE: str):
     # Read GM entries
     GMrawls = sheets.get_entries(sheets_api, GM_SPREADSHEET_ID, gm_spreadsheet_range, "GM")
     GM_entries = sheets.normalize_table(GMrawls[0], 1)
-
-    # # Build GM lookup keyed by logon (local-part of email)
-    # def extract_login(email: str) -> str:
-    #     if not email:
-    #         return ""
-    #     try:
-    #         return email.split('@', 1)[0].strip().lower()
-    #     except Exception:
-    #         return ""
-
-    # gm_by_login = {}
-    # for gm in GM_entries:
-    #     gm_email = sheets.get_email(gm)  # column E
-    #     login = extract_login(gm_email)
-    #     if login:
-    #         gm_by_login[login] = gm
 
     # Read prior statuses (memory) from EntryStatuses column A
     prev_result = service.spreadsheets().values().get(

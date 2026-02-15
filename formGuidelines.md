@@ -8,3 +8,5 @@ Title Card
 
 -  C, D, E = First name, last name, ucla email
 - form must be editable after submission 
+
+Optional: single submission for each email, although this isn't required. It would just help reduce the possibility of dupliciate entries

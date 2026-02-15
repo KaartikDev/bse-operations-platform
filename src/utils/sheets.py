@@ -4,9 +4,6 @@ from googleapiclient.errors import HttpError
 # Mapping Spreadsheet Columns
 MENTEE_NUMBER_OF_COLUMNS = 14   # Total number of columns in the mentee spreadsheet
 MENTEE_LAST_COLUMN_LETTER = "N" # Last column letter in Mentee sheet
-MENTEE_EMAIL_COLUMN_INDEX = 4   # "E" column in Mentee sheet
-MENTEE_FIRST_NAME_COLUMN_INDEX = 2 # "C" column in Mentee sheet
-MENTEE_LAST_NAME_COLUMN_INDEX = 3 # "D" column in Mentee sheet
 MENTEE_BSE_ID_COLUMN_INDEX = 5  # "F" column in Mentee sheet
 MENTEE_VERIFICATION_COLUMN_LETTER = "L"
 MENTEE_VERIFICATION_COLUMN_INDEX = 11 # "L" column in Mentee sheet
@@ -27,8 +24,8 @@ first_name_clm_ltr = "C"     # first name will always be at column C
 first_name_clm_idx = 2
 last_name_clm_ltr = "D"      # last name will always be at column D
 last_name_clm_idx = 3
-ucla_email_clm_ltr = "E"     # ucla email will always be at column E
-ucla_email_clm_idx = 4
+email_clm_ltr = "E"     # ucla email will always be at column E
+email_clm_idx = 4
 entry_status_clm_idx_addition = 1 # the status column of each entry will always be +1 from the very last column 
 
 def create_service(CREDS):
@@ -153,18 +150,18 @@ def get_first_name(ENTRY):
     Returns the first name from the entry in lowercase.
     Assumes first name is in column C (index 2).
     """
-    return ENTRY[MENTEE_FIRST_NAME_COLUMN_INDEX].strip().lower()
+    return ENTRY[first_name_clm_idx].strip().lower()
 def get_last_name(ENTRY):
     """
     Returns the last name from the entry in lowercase.
     Assumes last name is in column D (index 3).
     """
-    return ENTRY[MENTEE_LAST_NAME_COLUMN_INDEX].strip().lower()
+    return ENTRY[last_name_clm_idx].strip().lower()
 def get_email(ENTRY):
     """
     Returns the email from the entry.
     Assumes email is in column E (index 4).
     """
-    return ENTRY[MENTEE_EMAIL_COLUMN_INDEX].strip()
+    return ENTRY[email_clm_idx].strip()
     
     
